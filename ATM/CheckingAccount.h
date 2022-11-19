@@ -6,9 +6,13 @@
 class CheckingAccount: public Account {
 public:
     // maxBalance = 0 means that maximal balance isn't set up, excessReceiver should equal nullptr in that case
-    CheckingAccount(const QString& number, const QString& pincode, const QString& phone, double initSum, double maxBalance=0, Account* excessReceiver=nullptr);
-    double maxBalance();
+    CheckingAccount(const QString& number, const QString& pincode, const QString& phone, double initBalance, double maxBalance=0, Account* excessReceiver=nullptr);
+    double maxBalance() const;
     ~CheckingAccount();
+private:
+    double _maxBalance;
+    Account* _excessReceiver;
+    void doDeposit(double);
 };
 
 #endif // CHECKINGACCOUNT_H

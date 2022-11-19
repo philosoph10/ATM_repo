@@ -7,15 +7,34 @@
 class Account {
 public:
     Account(const QString& number, const QString& pincode, const QString& phone, double initBalance=0);
-    void obtainCash(double);
-    void putCash(double);
-    void transfer(const Account& to);
+    void withdraw(double);
+    void deposit(double);
+    void transfer(Account& to, double sum);
     double balance() const;
     const QString& number() const;
     const QString& pincode() const;
     void setPincode(const QString&);
     const QString& phone() const;
-    virtual ~Account();
+    virtual ~Account() {}
+    class BadAccount
+    {
+    public:
+        BadAccount(const QString&);
+        ~BadAccount() {}
+        void showMessage() const;
+    private:
+        const QString _errorMessage;
+    };
+protected:
+    const QString _number;
+    QString _pincode;
+    QString _phone;
+    double _balance;
+private:
+    virtual void doWithdraw(double);
+    virtual void doDeposit(double);
+    virtual void doTransfer(Account& to, double sum);
+    virtual void doSetPincode() {}
 };
 
 #endif // ACCOUNT_H
