@@ -1,8 +1,8 @@
 #include "CheckingAccount.h"
 
 CheckingAccount::CheckingAccount(const QString& number, const QString& pincode, const QString& phone, double initBalance,
-                                 double maxBalance, Account* excessReceiver) :
-    Account(number, pincode, phone, initBalance), _maxBalance(maxBalance), _excessReceiver(excessReceiver) {
+                                 double maxBalance, const QString& excessReceiver) :
+    Account(number, pincode, phone, initBalance), _maxBalance(maxBalance) {
     if (_maxBalance < 0) {
         throw BadAccount("Maximal balance < 0 at CheckingAccount::CheckingAccount");
     }
