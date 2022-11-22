@@ -4,7 +4,8 @@
 
 // class which performs automatic transfers
 // it contains all the set transfer daemons
-class DaemonController {
+class DaemonController
+{
     DaemonController();
     ~DaemonController();
     void addDaemon(const TransferDaemon&);
