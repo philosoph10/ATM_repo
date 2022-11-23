@@ -1,29 +1,29 @@
 {
-	"Accounts": [
-	{
-		"Type": "Checking",
-		"Number": "1234567890123456",
-		"Pin-code": "5920",
-		"Phone": "0991234567",
-		"Balance": 2000,
-		"Max-balance": 2500,
-		"Excess-receiver": "1234561234567890",
-	},
-	{
-		"Type": "Savings",
-		"Number": "0987654321123456",
-		"Pin-code": "0093",
-		"Phone": "0501112233",
-		"Balance": 10000,
-		"Interest": 1.5,
-	},
-	{
-		"Type": "Line of Credit",
-		"Number": "1234561234567890",
-		"Pin-code": "4821",
-		"Phone": "0670009988",
-		"Balance": 200,
-		"Min-balance": 100,
-	},
-	]
+    "Accounts": [
+        {
+            "Balance": 600,
+            "Excess-receiver": "1234561234567890",
+            "Max-balance": 2500,
+            "Number": "1234567890123456",
+            "Phone": "0991234567",
+            "Pin-code": "5920",
+            "Type": "Checking"
+        },
+        {
+            "Balance": 11001.5,
+            "Interest": 1.5,
+            "Number": "0987654321123456",
+            "Phone": "0501112233",
+            "Pin-code": "0093",
+            "Type": "Savings"
+        },
+        {
+            "Balance": 275,
+            "Min-balance": 100,
+            "Number": "1234561234567890",
+            "Phone": "0670009988",
+            "Pin-code": "4821",
+            "Type": "Line of Credit"
+        }
+    ]
 }

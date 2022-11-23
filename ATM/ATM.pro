@@ -11,7 +11,11 @@ CONFIG += c++17
 SOURCES += \
     clientbase.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    checkingaccount.cpp \
+    savingsaccount.cpp \
+    lineofcreditaccount.cpp \
+    account.cpp
 
 HEADERS += \
     Account.h \

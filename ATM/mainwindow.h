@@ -9,6 +9,7 @@
 #include <QStackedWidget>
 #include <QDir>
 #include "Account.h"
+#include "clientbase.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -23,17 +24,28 @@ public:
     ~MainWindow();
 
 private slots:
-    void registerCheck();
+    Account* registerCheck();
 
     void on_loginButton_clicked();
 
-    void on_logOutButton_clicked();
+    void performLogout();
+
+    void prepareToPutCash();
+
+    void cancelPuttingCash();
 
 private:
     Ui::MainWindow *ui;
     Account* _workingAccount;
+    ClientBase* _db;
 
 private:
     void setUpRegisterScreen();
+    void setUpCheckingAccScreen();
+    void setUpSavingsAccScreen();
+    void setUpLineOfCreditAccScreen();
+    void setUpObtainCashScreen();
+    void jumpToCorrectScreen();
+    void putCash();
 };
 #endif // MAINWINDOW_H
