@@ -14,7 +14,8 @@ SOURCES += \
     LineOfCreditAccount.cpp \
     SavingsAccount.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    clientbase.cpp
 
 HEADERS += \
     Account.h \
@@ -23,7 +24,8 @@ HEADERS += \
     LineOfCreditAccount.h \
     SavingsAccount.h \
     TransferDaemon.h \
-    mainwindow.h
+    mainwindow.h \
+    clientbase.h
 
 FORMS += \
     mainwindow.ui
