@@ -21,6 +21,8 @@ public:
     bool isSavingsAcc(const QString& number);
     bool isLineOfCreditAcc(const QString& number);
     void updateBalance(const QString& number, double val);
+    void updateMaxBalance(const QString& number, double balance);
+    void updateExcessReceiver(const QString& number, const QString& excessReceiver);
 
 private:
     void update();

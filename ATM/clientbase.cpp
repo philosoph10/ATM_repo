@@ -73,6 +73,48 @@ void ClientBase::updateBalance(const QString &number, double val)
     }
 }
 
+void ClientBase::updateMaxBalance(const QString &number, double balance)
+{
+    update();
+    QJsonValue value = _kernel.value(QString("Accounts"));
+    QJsonArray accounts = value.toArray();
+    for (int i = 0; i < accounts.size(); ++i) {
+        QJsonObject account = accounts[i].toObject();
+        QString curNumber = account.value("Number").toString();
+        if (curNumber != number) continue;
+        if (account.contains("Max-balance")) account.remove("Max-balance");
+        account.insert("Max-balance", balance);
+        accounts.removeAt(i);
+        accounts.insert(i, account);
+        //qDebug() << accounts.size() << '\n';
+        _kernel.remove("Accounts");
+        _kernel.insert("Accounts", accounts);
+        rewriteFile();
+        return;
+    }
+}
+
+void ClientBase::updateExcessReceiver(const QString &number, const QString &excessReceiver)
+{
+    update();
+    QJsonValue value = _kernel.value(QString("Accounts"));
+    QJsonArray accounts = value.toArray();
+    for (int i = 0; i < accounts.size(); ++i) {
+        QJsonObject account = accounts[i].toObject();
+        QString curNumber = account.value("Number").toString();
+        if (curNumber != number) continue;
+        if(account.contains("Excess-receiver")) account.remove("Excess-receiver");
+        account.insert("Excess-receiver", excessReceiver);
+        accounts.removeAt(i);
+        accounts.insert(i, account);
+        //qDebug() << accounts.size() << '\n';
+        _kernel.remove("Accounts");
+        _kernel.insert("Accounts", accounts);
+        rewriteFile();
+        return;
+    }
+}
+
 void ClientBase::update()
 {
     QString contents;
