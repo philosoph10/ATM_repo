@@ -1,5 +1,5 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
+#ifndef THEWINDOW_H
+#define THEWINDOW_H
 
 #include <QMainWindow>
 #include <QLineEdit>
@@ -12,16 +12,16 @@
 #include "clientbase.h"
 
 QT_BEGIN_NAMESPACE
-namespace Ui { class MainWindow; }
+namespace Ui { class TheWindow; }
 QT_END_NAMESPACE
 
-class MainWindow : public QMainWindow
+class TheWindow : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    MainWindow(QWidget *parent = nullptr, QDir path = QDir::current());
-    ~MainWindow();
+    TheWindow(QWidget *parent = nullptr, QDir path = QDir::current());
+    ~TheWindow();
 
 private slots:
     Account* registerCheck();
@@ -32,10 +32,22 @@ private slots:
 
     void prepareToPutCash();
 
+    void prepareToObtainCash();
+
+    void prepareToTransferMoney();
+
+    void prepareToSurfeitProcessing();
+
     void cancelPuttingCash();
 
+    void cancelObtainingCash();
+
+    void cancelTransfer();
+
+    void cancelSurfeitProcessing();
+
 private:
-    Ui::MainWindow *ui;
+    Ui::TheWindow *ui;
     Account* _workingAccount;
     ClientBase* _db;
 
@@ -44,8 +56,14 @@ private:
     void setUpCheckingAccScreen();
     void setUpSavingsAccScreen();
     void setUpLineOfCreditAccScreen();
+    void setUpPutCashScreen();
     void setUpObtainCashScreen();
+    void setUpTransferScreen();
+    void setUpSurfeitProcessing();
     void jumpToCorrectScreen();
     void putCash();
+    void obtainCash();
+    void transferMoney();
+    void surfeitProcessing();
 };
-#endif // MAINWINDOW_H
+#endif // THEWINDOW_H
