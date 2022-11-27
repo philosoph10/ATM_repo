@@ -640,7 +640,7 @@ service</string>
          <string>Money transfer</string>
         </property>
        </widget>
-       <widget class="QPushButton" name="pushButton_12">
+       <widget class="QPushButton" name="changeBackupButton">
         <property name="geometry">
          <rect>
           <x>130</x>
@@ -1061,7 +1061,7 @@ you pick now.</string>
      </widget>
     </widget>
     <widget class="QWidget" name="page_15">
-     <widget class="QLineEdit" name="transferCardLineEdit_2">
+     <widget class="QLineEdit" name="changeBackupCardLineEdit">
       <property name="geometry">
        <rect>
         <x>200</x>
@@ -1074,7 +1074,7 @@ you pick now.</string>
        <string>xxxxxxxxxxxxxxxx</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="cancelTransferButton_2">
+     <widget class="QPushButton" name="cancelChangeBackupButton">
       <property name="geometry">
        <rect>
         <x>0</x>
@@ -1094,9 +1094,9 @@ you pick now.</string>
      <widget class="QLabel" name="label_26">
       <property name="geometry">
        <rect>
-        <x>110</x>
+        <x>90</x>
         <y>50</y>
-        <width>180</width>
+        <width>230</width>
         <height>30</height>
        </rect>
       </property>
@@ -1112,7 +1112,7 @@ you pick now.</string>
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QPushButton" name="confirmTransferPushButton_2">
+     <widget class="QPushButton" name="confirmChangeBackupButton">
       <property name="geometry">
        <rect>
         <x>230</x>

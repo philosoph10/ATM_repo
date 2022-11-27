@@ -8,7 +8,10 @@
 #include <QPushButton>
 #include <QStackedWidget>
 #include <QDir>
+#include <QMessageBox>
 #include "Account.h"
+#include "CheckingAccount.h"
+#include "LineOfCreditAccount.h"
 #include "clientbase.h"
 
 QT_BEGIN_NAMESPACE
@@ -38,6 +41,8 @@ private slots:
 
     void prepareToSurfeitProcessing();
 
+    void prepareToChangingBackup();
+
     void cancelPuttingCash();
 
     void cancelObtainingCash();
@@ -45,6 +50,8 @@ private slots:
     void cancelTransfer();
 
     void cancelSurfeitProcessing();
+
+    void cancelChangingBackup();
 
 private:
     Ui::TheWindow *ui;
@@ -60,10 +67,12 @@ private:
     void setUpObtainCashScreen();
     void setUpTransferScreen();
     void setUpSurfeitProcessing();
+    void setUpChangingBackup();
     void jumpToCorrectScreen();
     void putCash();
     void obtainCash();
     void transferMoney();
     void surfeitProcessing();
+    void changeBackup();
 };
 #endif // THEWINDOW_H

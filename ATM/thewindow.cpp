@@ -20,6 +20,7 @@ TheWindow::TheWindow(QWidget *parent, QDir databaseDir)
     setUpObtainCashScreen();
     setUpTransferScreen();
     setUpSurfeitProcessing();
+    setUpChangingBackup();
 }
 
 TheWindow::~TheWindow()
@@ -74,6 +75,7 @@ void TheWindow::setUpLineOfCreditAccScreen()
     connect(ui->putCashButtonL, &QPushButton::clicked, this, &TheWindow::prepareToPutCash);
     connect(ui->obtainCashButtonL, &QPushButton::clicked, this, &TheWindow::prepareToObtainCash);
     connect(ui->transferButtonL, &QPushButton::clicked, this, &TheWindow::prepareToTransferMoney);
+    connect(ui->changeBackupButton, &QPushButton::clicked, this, &TheWindow::prepareToChangingBackup);
 }
 
 void TheWindow::setUpPutCashScreen()
@@ -109,6 +111,13 @@ void TheWindow::setUpSurfeitProcessing()
     ui->maxBalanceLineEdit->setValidator(new QRegularExpressionValidator(QRegularExpression("[0-9]+(\.[0-9]{0,2})?")));
 }
 
+void TheWindow::setUpChangingBackup()
+{
+    connect(ui->confirmChangeBackupButton, &QPushButton::clicked, this, &TheWindow::changeBackup);
+    connect(ui->cancelChangeBackupButton, &QPushButton::clicked, this, &TheWindow::cancelChangingBackup);
+    ui->changeBackupCardLineEdit->setValidator(new QRegularExpressionValidator(QRegularExpression("[0-9]{0,16}")));
+}
+
 void TheWindow::jumpToCorrectScreen()
 {
     if(_db->isCheckingAcc(_workingAccount->number()))
@@ -130,33 +139,86 @@ void TheWindow::jumpToCorrectScreen()
 
 void TheWindow::putCash()
 {
-    _workingAccount->deposit(ui->putCashLineEdit->text().toDouble());
+    try{
+        _workingAccount->deposit(ui->putCashLineEdit->text().toDouble());
+    }
+    catch(const Account::BadAccount& err) {
+        QMessageBox messageBox;
+        messageBox.critical(0,"Error","An error occured while processing your request.\nWe are sorry "
+                                      "for the inconvenience.");
+        messageBox.setFixedSize(500,200);
+    }
     ui->putCashLineEdit->clear();
-    _db->updateBalance(_workingAccount->number(), _workingAccount->balance());
     jumpToCorrectScreen();
 }
 
 void TheWindow::obtainCash()
 {
-    _workingAccount->withdraw(ui->obtainCashLineEdit->text().toDouble());
+    try {
+        _workingAccount->withdraw(ui->obtainCashLineEdit->text().toDouble());
+    }
+    catch(const Account::BadAccount& err) {
+        QMessageBox messageBox;
+        messageBox.critical(0,"Error","An error occured while processing your request.\nWe are sorry "
+                                      "for the inconvenience.");
+        messageBox.setFixedSize(500,200);
+    }
     ui->obtainCashLineEdit->clear();
-    _db->updateBalance(_workingAccount->number(), _workingAccount->balance());
     jumpToCorrectScreen();
 }
 
 void TheWindow::transferMoney()
 {
-//    Account* to = _db->getAccount(ui->transferCardLineEdit->text());
-//    _workingAccount->transfer(&to, ui->obtainCashLineEdit->text().toDouble());
-//    ui->obtainCashLineEdit->clear();
-//    _db->updateBalance(_workingAccount->number(), _workingAccount->balance());
-    //    jumpToCorrectScreen();
+    double sum = ui->transferLineEdit->text().toDouble();
+    QString receiver = ui->transferCardLineEdit->text();
+    try{
+        _workingAccount->transfer(receiver, sum);
+    }
+    catch(const Account::BadAccount& err) {
+        QMessageBox messageBox;
+        messageBox.critical(0,"Error","An error occured while processing your request.\nWe are sorry "
+                                      "for the inconvenience.");
+        messageBox.setFixedSize(500,200);
+    }
+    ui->transferLineEdit->clear();
+    jumpToCorrectScreen();
 }
 
 void TheWindow::surfeitProcessing()
 {
-    // implement!
-    return;
+    double maxBalance = ui->maxBalanceLineEdit->text().toDouble();
+    QString excessReceiver = ui->surfeitReceiverLineEdit->text();
+    try {
+        if (maxBalance == 0) throw Account::BadAccount("Maximal balance is zero.");
+        CheckingAccount* workingLineOfCreditAcc = dynamic_cast<CheckingAccount*>(_workingAccount);
+        workingLineOfCreditAcc->setMaxBalance(maxBalance, excessReceiver);
+    }
+    catch(const Account::BadAccount& err) {
+        QMessageBox messageBox;
+        messageBox.critical(0,"Error","An error occured while processing your request.\nWe are sorry "
+                                      "for the inconvenience.");
+        messageBox.setFixedSize(500,200);
+    }
+    ui->maxBalanceLineEdit->clear();
+    ui->surfeitReceiverLineEdit->clear();
+    jumpToCorrectScreen();
+}
+
+void TheWindow::changeBackup()
+{
+    QString backupCard = ui->changeBackupCardLineEdit->text();
+    try {
+        LineOfCreditAccount* workingLineOfCreditAcc = dynamic_cast<LineOfCreditAccount*>(_workingAccount);
+        workingLineOfCreditAcc->setMinBalance(workingLineOfCreditAcc->minBalance(), backupCard);
+    }
+    catch(const Account::BadAccount& err) {
+        QMessageBox messageBox;
+        messageBox.critical(0,"Error","An error occured while processing your request.\nWe are sorry "
+                                      "for the inconvenience.");
+        messageBox.setFixedSize(500,200);
+    }
+    ui->changeBackupCardLineEdit->clear();
+    jumpToCorrectScreen();
 }
 
 void TheWindow::on_loginButton_clicked()
@@ -200,6 +262,11 @@ void TheWindow::prepareToSurfeitProcessing()
     ui->stackedWidget->setCurrentIndex(7);
 }
 
+void TheWindow::prepareToChangingBackup()
+{
+    ui->stackedWidget->setCurrentIndex(8);
+}
+
 void TheWindow::cancelPuttingCash()
 {
     jumpToCorrectScreen();
@@ -217,7 +284,11 @@ void TheWindow::cancelTransfer()
 
 void TheWindow::cancelSurfeitProcessing()
 {
-    qDebug() << "Cancelling surfeit processing!\n";
+    jumpToCorrectScreen();
+}
+
+void TheWindow::cancelChangingBackup()
+{
     jumpToCorrectScreen();
 }
 

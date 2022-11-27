@@ -27,7 +27,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 namespace {
 struct qt_meta_stringdata_TheWindow_t {
-    uint offsetsAndSizes[28];
+    uint offsetsAndSizes[32];
     char stringdata0[10];
     char stringdata1[14];
     char stringdata2[9];
@@ -38,10 +38,12 @@ struct qt_meta_stringdata_TheWindow_t {
     char stringdata7[20];
     char stringdata8[23];
     char stringdata9[27];
-    char stringdata10[18];
-    char stringdata11[20];
-    char stringdata12[15];
-    char stringdata13[24];
+    char stringdata10[24];
+    char stringdata11[18];
+    char stringdata12[20];
+    char stringdata13[15];
+    char stringdata14[24];
+    char stringdata15[21];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_TheWindow_t::offsetsAndSizes) + ofs), len 
@@ -57,10 +59,12 @@ Q_CONSTINIT static const qt_meta_stringdata_TheWindow_t qt_meta_stringdata_TheWi
         QT_MOC_LITERAL(88, 19),  // "prepareToObtainCash"
         QT_MOC_LITERAL(108, 22),  // "prepareToTransferMoney"
         QT_MOC_LITERAL(131, 26),  // "prepareToSurfeitProcessing"
-        QT_MOC_LITERAL(158, 17),  // "cancelPuttingCash"
-        QT_MOC_LITERAL(176, 19),  // "cancelObtainingCash"
-        QT_MOC_LITERAL(196, 14),  // "cancelTransfer"
-        QT_MOC_LITERAL(211, 23)   // "cancelSurfeitProcessing"
+        QT_MOC_LITERAL(158, 23),  // "prepareToChangingBackup"
+        QT_MOC_LITERAL(182, 17),  // "cancelPuttingCash"
+        QT_MOC_LITERAL(200, 19),  // "cancelObtainingCash"
+        QT_MOC_LITERAL(220, 14),  // "cancelTransfer"
+        QT_MOC_LITERAL(235, 23),  // "cancelSurfeitProcessing"
+        QT_MOC_LITERAL(259, 20)   // "cancelChangingBackup"
     },
     "TheWindow",
     "registerCheck",
@@ -72,10 +76,12 @@ Q_CONSTINIT static const qt_meta_stringdata_TheWindow_t qt_meta_stringdata_TheWi
     "prepareToObtainCash",
     "prepareToTransferMoney",
     "prepareToSurfeitProcessing",
+    "prepareToChangingBackup",
     "cancelPuttingCash",
     "cancelObtainingCash",
     "cancelTransfer",
-    "cancelSurfeitProcessing"
+    "cancelSurfeitProcessing",
+    "cancelChangingBackup"
 };
 #undef QT_MOC_LITERAL
 } // unnamed namespace
@@ -86,7 +92,7 @@ Q_CONSTINIT static const uint qt_meta_data_TheWindow[] = {
       10,       // revision
        0,       // classname
        0,    0, // classinfo
-      11,   14, // methods
+      13,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -94,20 +100,24 @@ Q_CONSTINIT static const uint qt_meta_data_TheWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   80,    3, 0x08,    1 /* Private */,
-       4,    0,   81,    3, 0x08,    2 /* Private */,
-       5,    0,   82,    3, 0x08,    3 /* Private */,
-       6,    0,   83,    3, 0x08,    4 /* Private */,
-       7,    0,   84,    3, 0x08,    5 /* Private */,
-       8,    0,   85,    3, 0x08,    6 /* Private */,
-       9,    0,   86,    3, 0x08,    7 /* Private */,
-      10,    0,   87,    3, 0x08,    8 /* Private */,
-      11,    0,   88,    3, 0x08,    9 /* Private */,
-      12,    0,   89,    3, 0x08,   10 /* Private */,
-      13,    0,   90,    3, 0x08,   11 /* Private */,
+       1,    0,   92,    3, 0x08,    1 /* Private */,
+       4,    0,   93,    3, 0x08,    2 /* Private */,
+       5,    0,   94,    3, 0x08,    3 /* Private */,
+       6,    0,   95,    3, 0x08,    4 /* Private */,
+       7,    0,   96,    3, 0x08,    5 /* Private */,
+       8,    0,   97,    3, 0x08,    6 /* Private */,
+       9,    0,   98,    3, 0x08,    7 /* Private */,
+      10,    0,   99,    3, 0x08,    8 /* Private */,
+      11,    0,  100,    3, 0x08,    9 /* Private */,
+      12,    0,  101,    3, 0x08,   10 /* Private */,
+      13,    0,  102,    3, 0x08,   11 /* Private */,
+      14,    0,  103,    3, 0x08,   12 /* Private */,
+      15,    0,  104,    3, 0x08,   13 /* Private */,
 
  // slots: parameters
     0x80000000 | 2,
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -145,6 +155,8 @@ Q_CONSTINIT const QMetaObject TheWindow::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'prepareToSurfeitProcessing'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'prepareToChangingBackup'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'cancelPuttingCash'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'cancelObtainingCash'
@@ -152,6 +164,8 @@ Q_CONSTINIT const QMetaObject TheWindow::staticMetaObject = { {
         // method 'cancelTransfer'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'cancelSurfeitProcessing'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'cancelChangingBackup'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -171,10 +185,12 @@ void TheWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         case 4: _t->prepareToObtainCash(); break;
         case 5: _t->prepareToTransferMoney(); break;
         case 6: _t->prepareToSurfeitProcessing(); break;
-        case 7: _t->cancelPuttingCash(); break;
-        case 8: _t->cancelObtainingCash(); break;
-        case 9: _t->cancelTransfer(); break;
-        case 10: _t->cancelSurfeitProcessing(); break;
+        case 7: _t->prepareToChangingBackup(); break;
+        case 8: _t->cancelPuttingCash(); break;
+        case 9: _t->cancelObtainingCash(); break;
+        case 10: _t->cancelTransfer(); break;
+        case 11: _t->cancelSurfeitProcessing(); break;
+        case 12: _t->cancelChangingBackup(); break;
         default: ;
         }
     }
@@ -199,13 +215,13 @@ int TheWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 11)
+        if (_id < 13)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 11;
+        _id -= 13;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 11)
+        if (_id < 13)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 11;
+        _id -= 13;
     }
     return _id;
 }
