@@ -23,6 +23,8 @@ public:
     void updateBalance(const QString& number, double val);
     void updateMaxBalance(const QString& number, double balance);
     void updateExcessReceiver(const QString& number, const QString& excessReceiver);
+    void updateMinBalance(const QString& number, double val);
+    void updateBackup(const QString& number, const QString& backup);
 
 private:
     void update();

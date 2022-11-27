@@ -1,9 +1,9 @@
 {
     "Accounts": [
         {
-            "Balance": 2500,
+            "Balance": 2050,
             "Excess-receiver": "0987654321123456",
-            "Max-balance": 2600,
+            "Max-balance": 2800,
             "Number": "1234567890123456",
             "Phone": "0991234567",
             "Pin-code": "5920",
@@ -18,8 +18,9 @@
             "Type": "Savings"
         },
         {
-            "Balance": 3775,
-            "Min-balance": 100,
+            "Back-up": "1234567890123456",
+            "Balance": 3000,
+            "Min-balance": 2000,
             "Number": "1234561234567890",
             "Phone": "0670009988",
             "Pin-code": "4821",

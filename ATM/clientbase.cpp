@@ -115,6 +115,48 @@ void ClientBase::updateExcessReceiver(const QString &number, const QString &exce
     }
 }
 
+void ClientBase::updateMinBalance(const QString &number, double val)
+{
+    update();
+    QJsonValue value = _kernel.value(QString("Accounts"));
+    QJsonArray accounts = value.toArray();
+    for (int i = 0; i < accounts.size(); ++i) {
+        QJsonObject account = accounts[i].toObject();
+        QString curNumber = account.value("Number").toString();
+        if (curNumber != number) continue;
+        if (account.contains("Min-balance")) account.remove("Min-balance");
+        account.insert("Min-balance", val);
+        accounts.removeAt(i);
+        accounts.insert(i, account);
+        //qDebug() << accounts.size() << '\n';
+        _kernel.remove("Accounts");
+        _kernel.insert("Accounts", accounts);
+        rewriteFile();
+        return;
+    }
+}
+
+void ClientBase::updateBackup(const QString &number, const QString &backup)
+{
+    update();
+    QJsonValue value = _kernel.value(QString("Accounts"));
+    QJsonArray accounts = value.toArray();
+    for (int i = 0; i < accounts.size(); ++i) {
+        QJsonObject account = accounts[i].toObject();
+        QString curNumber = account.value("Number").toString();
+        if (curNumber != number) continue;
+        if(account.contains("Back-up")) account.remove("Back-up");
+        account.insert("Back-up", backup);
+        accounts.removeAt(i);
+        accounts.insert(i, account);
+        //qDebug() << accounts.size() << '\n';
+        _kernel.remove("Accounts");
+        _kernel.insert("Accounts", accounts);
+        rewriteFile();
+        return;
+    }
+}
+
 void ClientBase::update()
 {
     QString contents;
@@ -173,7 +215,8 @@ Account *ClientBase::getLineOfCreditAcc(const QJsonObject &account)
     QString phone = account.value("Phone").toString();
     double balance = account.value("Balance").toDouble();
     double minBalance = account.value("Min-balance").toDouble();
-    return new LineOfCreditAccount(number, pincode, phone, this, balance, minBalance);
+    QString backup = account.value("Back-up").toString();
+    return new LineOfCreditAccount(number, pincode, phone, this, balance, minBalance, backup);
 }
 
 void ClientBase::rewriteFile()

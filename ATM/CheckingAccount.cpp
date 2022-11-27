@@ -59,10 +59,17 @@ void CheckingAccount::setMaxBalance(double newMaxBalance, const QString &excessR
     {
         throw BadAccount("No excess receiver at CheckingAccount::setMaxBalance");
     }
-    _maxBalance = newMaxBalance;
     if (excessReceiver != "")
     {
+        Account* receiver = _db->getAccount(excessReceiver);
+        if (receiver == nullptr)
+        {
+            throw BadAccount("Non-existing excess-receiving account at CheckingAccount::setMaxBalance");
+        }
         _excessReceiver = excessReceiver;
+        _db->updateExcessReceiver(_number, _excessReceiver);
     }
+    _maxBalance = newMaxBalance;
+    _db->updateMaxBalance(_number, _maxBalance);
 }
 

@@ -18,10 +18,6 @@ void Account::withdraw(double sum)
     {
         throw BadAccount("Negative argument at Account::doWithdraw");
     }
-    if (sum > _balance)
-    {
-        throw BadAccount("Attempt to withdraw sum greater than balance at Account::doWithdraw");
-    }
     doWithdraw(sum);
 }
 
@@ -77,6 +73,10 @@ const QString& Account::phone() const
 
 void Account::doWithdraw(double sum)
 {
+    if (sum > _balance)
+    {
+        throw BadAccount("Attempt to withdraw sum greater than balance at Account::doWithdraw");
+    }
     _db->updateBalance(_number, _balance - sum);
     _balance -= sum;
 }
