@@ -13,7 +13,7 @@ public:
                         const QString& backup="");
     ~LineOfCreditAccount() {}
     double minBalance() const;
-    void setMinBalance(double newMinBalance, const QString& backup = "");
+    void setBackup(const QString& backup);
 private:
     double _minBalance;
     QString _backup;

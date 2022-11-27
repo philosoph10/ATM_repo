@@ -209,7 +209,7 @@ void TheWindow::changeBackup()
     QString backupCard = ui->changeBackupCardLineEdit->text();
     try {
         LineOfCreditAccount* workingLineOfCreditAcc = dynamic_cast<LineOfCreditAccount*>(_workingAccount);
-        workingLineOfCreditAcc->setMinBalance(workingLineOfCreditAcc->minBalance(), backupCard);
+        //workingLineOfCreditAcc->setMinBalance(workingLineOfCreditAcc->minBalance(), backupCard);
     }
     catch(const Account::BadAccount& err) {
         QMessageBox messageBox;

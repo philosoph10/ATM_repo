@@ -18,28 +18,22 @@ double LineOfCreditAccount::minBalance() const
     return _minBalance;
 }
 
-void LineOfCreditAccount::setMinBalance(double newMinBalance, const QString &backup)
+void LineOfCreditAccount::setBackup(const QString &backup)
 {
-    if (newMinBalance < 0)
+    if (_minBalance > 0 && backup == "")
     {
-        throw BadAccount("Negative argument at LineOfCreditAccount::setMinBalance");
-    }
-    if (newMinBalance > 0 && _backup == "" && backup == "")
-    {
-        throw BadAccount("No back-up at LineOfCreditAccount::setMinBalance");
+        throw BadAccount("No back-up despite set minimal balance at LineOfCreditAccount::setBackup");
     }
     if (backup != "")
     {
         Account* backupAccount = _db->getAccount(backup);
         if (backupAccount == nullptr)
         {
-            throw BadAccount("Non-existing back-up account at LineOfCreditAccount::setMinBalance");
+            throw BadAccount("Non-existing back-up account at LineOfCreditAccount::setBackup");
         }
-        _backup = backup;
-        _db->updateBackup(_number, _backup);
     }
-    _minBalance = newMinBalance;
-    _db->updateMinBalance(_number, _minBalance);
+    _backup = backup;
+    _db->updateBackup(_number, _backup);
 }
 
 void LineOfCreditAccount::doWithdraw(double sum)
