@@ -190,8 +190,8 @@ void TheWindow::surfeitProcessing()
     QString excessReceiver = ui->surfeitReceiverLineEdit->text();
     try {
         if (maxBalance == 0) throw Account::BadAccount("Maximal balance is zero.");
-        CheckingAccount* workingLineOfCreditAcc = dynamic_cast<CheckingAccount*>(_workingAccount);
-        workingLineOfCreditAcc->setMaxBalance(maxBalance, excessReceiver);
+        CheckingAccount* workingCheckingAcc = dynamic_cast<CheckingAccount*>(_workingAccount);
+        workingCheckingAcc->setMaxBalance(maxBalance, excessReceiver);
     }
     catch(const Account::BadAccount& err) {
         QMessageBox messageBox;
@@ -209,7 +209,7 @@ void TheWindow::changeBackup()
     QString backupCard = ui->changeBackupCardLineEdit->text();
     try {
         LineOfCreditAccount* workingLineOfCreditAcc = dynamic_cast<LineOfCreditAccount*>(_workingAccount);
-        //workingLineOfCreditAcc->setMinBalance(workingLineOfCreditAcc->minBalance(), backupCard);
+        workingLineOfCreditAcc->setBackup(backupCard);
     }
     catch(const Account::BadAccount& err) {
         QMessageBox messageBox;
