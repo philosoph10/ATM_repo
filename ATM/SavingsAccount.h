@@ -14,7 +14,7 @@ class SavingsAccount: public QObject, public Account
     Q_OBJECT
 
 public:
-    SavingsAccount(const QString& number, const QString& pincode, const QString& phone,
+    SavingsAccount(const QString& number, const QString& pincode, const QString& email,
                    ClientBase* db, double initBalance, double interest=0);
     ~SavingsAccount();
     double interest() const;

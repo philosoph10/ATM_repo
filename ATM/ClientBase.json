@@ -1,28 +1,28 @@
 {
     "Accounts": [
         {
-            "Balance": 2000,
+            "Balance": 2800,
+            "E-mail": "0991234567",
             "Excess-receiver": "0987654321123456",
             "Max-balance": 2800,
             "Number": "1234567890123456",
-            "Phone": "0991234567",
             "Pin-code": "5920",
             "Type": "Checking"
         },
         {
-            "Balance": 18000,
+            "Balance": 18200,
+            "E-mail": "0501112233",
             "Interest": 1.5,
             "Number": "0987654321123456",
-            "Phone": "0501112233",
             "Pin-code": "0093",
             "Type": "Savings"
         },
         {
-            "Back-up": "1234567890123456",
+            "Back-up": "0987654321123456",
             "Balance": 3050,
+            "E-mail": "0670009988",
             "Min-balance": 2000,
             "Number": "1234561234567890",
-            "Phone": "0670009988",
             "Pin-code": "4821",
             "Type": "Line of Credit"
         }

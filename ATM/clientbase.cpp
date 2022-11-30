@@ -187,36 +187,36 @@ Account *ClientBase::getCheckingAcc(const QJsonObject &account)
 {
     QString number = account.value("Number").toString();
     QString pincode = account.value("Pin-code").toString();
-    QString phone = account.value("Phone").toString();
+    QString email = account.value("E-mail").toString();
     double balance = account.value("Balance").toDouble();
     if(account.contains("Max-balance"))
     {
         double maxBalance = account.value("Max-balance").toDouble();
         QString excessReceiver = account.value("Excess-receiver").toString();
-        return new CheckingAccount(number, pincode, phone, this, balance, maxBalance, excessReceiver);
+        return new CheckingAccount(number, pincode, email, this, balance, maxBalance, excessReceiver);
     }
-    return new CheckingAccount(number, pincode, phone, this, balance);
+    return new CheckingAccount(number, pincode, email, this, balance);
 }
 
 Account *ClientBase::getSavingsAcc(const QJsonObject &account)
 {
     QString number = account.value("Number").toString();
     QString pincode = account.value("Pin-code").toString();
-    QString phone = account.value("Phone").toString();
+    QString email = account.value("E-mail").toString();
     double balance = account.value("Balance").toDouble();
     double interest = account.value("Intrest").toDouble();
-    return new SavingsAccount(number, pincode, phone, this, balance, interest);
+    return new SavingsAccount(number, pincode, email, this, balance, interest);
 }
 
 Account *ClientBase::getLineOfCreditAcc(const QJsonObject &account)
 {
     QString number = account.value("Number").toString();
     QString pincode = account.value("Pin-code").toString();
-    QString phone = account.value("Phone").toString();
+    QString email = account.value("E-mail").toString();
     double balance = account.value("Balance").toDouble();
     double minBalance = account.value("Min-balance").toDouble();
     QString backup = account.value("Back-up").toString();
-    return new LineOfCreditAccount(number, pincode, phone, this, balance, minBalance, backup);
+    return new LineOfCreditAccount(number, pincode, email, this, balance, minBalance, backup);
 }
 
 void ClientBase::rewriteFile()

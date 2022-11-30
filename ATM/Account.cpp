@@ -2,9 +2,9 @@
 #include <QDebug>
 #include "clientbase.h"
 
-Account::Account(const QString& number, const QString& pincode, const QString& phone,
+Account::Account(const QString& number, const QString& pincode, const QString& email,
                  ClientBase* db, double initBalance) :
-    _number(number), _pincode(pincode), _phone(phone), _db(db), _balance(initBalance)
+    _number(number), _pincode(pincode), _email(email), _db(db), _balance(initBalance)
 {
     if (initBalance < 0)
     {
@@ -66,9 +66,9 @@ void Account::setPincode(const QString &newPincode)
     }
 }
 
-const QString& Account::phone() const
+const QString& Account::email() const
 {
-    return _phone;
+    return _email;
 }
 
 void Account::doWithdraw(double sum)

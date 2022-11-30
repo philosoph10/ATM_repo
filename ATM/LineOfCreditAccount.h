@@ -8,7 +8,7 @@
 class LineOfCreditAccount: public Account
 {
 public:
-    LineOfCreditAccount(const QString& number, const QString& pincode, const QString& phone,
+    LineOfCreditAccount(const QString& number, const QString& pincode, const QString& email,
                         ClientBase* db, double initBalance, double minBalance=0,
                         const QString& backup="");
     ~LineOfCreditAccount() {}

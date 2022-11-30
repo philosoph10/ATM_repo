@@ -2,10 +2,10 @@
 #include "clientbase.h"
 
 LineOfCreditAccount::LineOfCreditAccount(const QString& number, const QString& pincode,
-                                         const QString& phone, ClientBase* db,
+                                         const QString& email, ClientBase* db,
                                          double initBalance, double minBalance,
                                          const QString& backup) :
-    Account(number, pincode, phone, db, initBalance), _minBalance(minBalance), _backup(backup)
+    Account(number, pincode, email, db, initBalance), _minBalance(minBalance), _backup(backup)
 {
     if (_minBalance < 0)
     {

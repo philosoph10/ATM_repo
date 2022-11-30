@@ -19,10 +19,8 @@ SOURCES += \
 HEADERS += \
     Account.h \
     CheckingAccount.h \
-    DaemonController.h \
     LineOfCreditAccount.h \
     SavingsAccount.h \
-    TransferDaemon.h \
     clientbase.h \
     thewindow.h
 

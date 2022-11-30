@@ -2,9 +2,9 @@
 #include "clientbase.h"
 
 CheckingAccount::CheckingAccount(const QString& number, const QString& pincode,
-                                 const QString& phone, ClientBase* db, double initBalance,
+                                 const QString& email, ClientBase* db, double initBalance,
                                  double maxBalance, const QString& excessReceiver) :
-    Account(number, pincode, phone, db, initBalance), _maxBalance(maxBalance),
+    Account(number, pincode, email, db, initBalance), _maxBalance(maxBalance),
     _excessReceiver(excessReceiver)
 {
     if (_maxBalance < 0)

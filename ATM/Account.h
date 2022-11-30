@@ -6,11 +6,12 @@ class ClientBase;
 
 // the interface of a bank account
 // every account has a number, a pin-code for access,
-// an associated phone number (can be used to retrieve forgotten pin-code), and a balance (money)
+// an associated email address (can be used to retrieve forgotten pin-code),
+// and a balance (money)
 class Account
 {
 public:
-    Account(const QString& number, const QString& pincode, const QString& phone, ClientBase* db,
+    Account(const QString& number, const QString& pincode, const QString& email, ClientBase* db,
             double initBalance=0);
     void withdraw(double);
     void deposit(double);
@@ -19,7 +20,7 @@ public:
     const QString& number() const;
     const QString& pincode() const;
     void setPincode(const QString&);
-    const QString& phone() const;
+    const QString& email() const;
     virtual ~Account() {}
     class BadAccount
     {
@@ -33,7 +34,7 @@ public:
 protected:
     const QString _number;
     QString _pincode;
-    QString _phone;
+    QString _email;
     ClientBase* _db;
     double _balance;
 private:

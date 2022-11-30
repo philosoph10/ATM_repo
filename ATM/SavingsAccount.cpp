@@ -2,9 +2,9 @@
 #include <QDebug>
 
 SavingsAccount::SavingsAccount(const QString& number, const QString& pincode,
-                               const QString& phone, ClientBase* db, double initBalance,
+                               const QString& email, ClientBase* db, double initBalance,
                                double interest) :
-    Account(number, pincode, phone, db, initBalance), _interest(interest), _timer(new QTimer()),
+    Account(number, pincode, email, db, initBalance), _interest(interest), _timer(new QTimer()),
     _lastDate(QDate::currentDate())
 {
     if (_interest < 0)
