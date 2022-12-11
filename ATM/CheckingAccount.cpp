@@ -7,9 +7,9 @@ CheckingAccount::CheckingAccount(const QString& number, const QString& pincode,
     Account(number, pincode, email, db, initBalance), _maxBalance(maxBalance),
     _excessReceiver(excessReceiver)
 {
-    if (_maxBalance < 0)
+    if (_maxBalance != 0 && _maxBalance < _balance)
     {
-        throw BadAccount("Maximal balance < 0 at CheckingAccount::CheckingAccount");
+        throw BadAccount("Maximal balance less than init balance at CheckingAccount::CheckingAccount");
     }
     if (_maxBalance > 0 && _excessReceiver == "")
     {
@@ -54,6 +54,10 @@ void CheckingAccount::setMaxBalance(double newMaxBalance, const QString &excessR
     if (newMaxBalance < 0)
     {
         throw BadAccount("Negative argument at CheckingAccount::setMaxBalance");
+    }
+    if (newMaxBalance != 0 && newMaxBalance < _balance)
+    {
+        throw BadAccount("Attempt to set maximal balance less than current balance at CheckingAccount::setMaxBalance");
     }
     if (newMaxBalance > 0 && _excessReceiver == "" && excessReceiver == "")
     {

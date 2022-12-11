@@ -1,0 +1,10 @@
+release/TestAccounts.o
+release/clientbase.o
+release/main.o
+release/checkingaccount.o
+release/savingsaccount.o
+release/lineofcreditaccount.o
+release/account.o
+release/thewindow.o
+release/moc_SavingsAccount.o
+release/moc_thewindow.o

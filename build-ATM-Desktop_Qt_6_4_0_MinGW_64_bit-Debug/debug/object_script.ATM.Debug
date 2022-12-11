@@ -1,0 +1,10 @@
+debug/TestAccounts.o
+debug/clientbase.o
+debug/main.o
+debug/checkingaccount.o
+debug/savingsaccount.o
+debug/lineofcreditaccount.o
+debug/account.o
+debug/thewindow.o
+debug/moc_SavingsAccount.o
+debug/moc_thewindow.o

@@ -32,14 +32,14 @@ void Account::deposit(double sum)
 
 void Account::transfer(const QString& number, double sum)
 {
-    if (sum < 0)
-    {
-        throw BadAccount("Negative argument at Account::doTransfer");
-    }
-    if (sum > _balance)
-    {
-        throw BadAccount("Attempt to withdraw sum greater than balance at Account::doTransfer");
-    }
+//    if (sum < 0)
+//    {
+//        throw BadAccount("Negative argument at Account::doTransfer");
+//    }
+//    if (sum > _balance)
+//    {
+//        throw BadAccount("Attempt to withdraw sum greater than balance at Account::doTransfer");
+//    }
     doTransfer(number, sum);
 }
 

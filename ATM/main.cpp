@@ -2,12 +2,12 @@
 #include <QDir>
 #include <QDebug>
 #include <QApplication>
-#include "clientbase.h"
-#include "LineOfCreditAccount.h"
+//#include "clientbase.h"
+//#include "LineOfCreditAccount.h"
 
 int main(int argc, char *argv[])
 {
-    ClientBase* db = new ClientBase("ClientBase.json");
+    //ClientBase* db = new ClientBase("ClientBase.json");
     //CheckingAccount* ca = dynamic_cast<CheckingAccount*>(db->getAccount("1234567890123456"));
     //ca->setMaxBalance(2800, "0987654321123456");
     //db->updateMaxBalance("1234567890123456", 2600);

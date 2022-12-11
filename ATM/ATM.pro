@@ -8,6 +8,7 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    #TestAccounts.cpp \
     clientbase.cpp \
     main.cpp \
     checkingaccount.cpp \
@@ -34,6 +35,14 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 DISTFILES += \
     classdiagram.qmodel
+
+QT += testlib
+
+QT += widgets testlib
+
+# install
+target.path = $$[QT_INSTALL_EXAMPLES]/qtestlib/tutorial1
+INSTALLS += target
 
 #win32:CONFIG(release, debug|release): LIBS += -L$$PWD/'../../../../QT Console Apps/SimpleSmtp_SSL_QT5-master/build-smtp-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/release/' -lsmtp
 #else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/'../../../../QT Console Apps/SimpleSmtp_SSL_QT5-master/build-smtp-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/debug/' -lsmtp
