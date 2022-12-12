@@ -72,7 +72,7 @@
                          <object>{3f043161-7205-4d69-aeec-0c73e3253043}</object>
                          <context>ATM</context>
                          <name>CheckingAccount</name>
-                         <pos>x:-245;y:15</pos>
+                         <pos>x:-215;y:15</pos>
                          <rect>x:-205;y:-50;w:410;h:100</rect>
                          <visual-role>0</visual-role>
                         </DObject>
@@ -111,7 +111,7 @@
                          </base-DElement>
                          <object>{da26ae70-d826-45eb-baa9-ad93905225ab}</object>
                          <name>LineOfCreditAccount</name>
-                         <pos>x:135;y:10</pos>
+                         <pos>x:110;y:10</pos>
                          <rect>x:-105;y:-45;w:210;h:90</rect>
                          <visual-role>0</visual-role>
                         </DObject>
@@ -150,7 +150,7 @@
                          </base-DElement>
                          <object>{91145666-c7e3-4054-91d4-42d33d99662c}</object>
                          <name>SavingsAccount</name>
-                         <pos>x:325;y:5</pos>
+                         <pos>x:290;y:5</pos>
                          <rect>x:-50;y:-30;w:100;h:60</rect>
                          <visual-role>0</visual-role>
                         </DObject>
@@ -188,7 +188,7 @@
                          </base-DElement>
                          <object>{1d347575-5df2-4d23-a720-6cae79e08f4c}</object>
                          <name>ClientBase</name>
-                         <pos>x:175;y:-395</pos>
+                         <pos>x:25;y:-400</pos>
                          <rect>x:-215;y:-95;w:430;h:190</rect>
                          <visual-role>0</visual-role>
                         </DObject>
@@ -224,7 +224,7 @@
                     </item>
                    </qlist>
                   </elements>
-                  <last-modified>1670856941188</last-modified>
+                  <last-modified>1670860448225</last-modified>
                   <toolbarid>Classes</toolbarid>
                  </MDiagram>
                 </base-MDiagram>
@@ -455,14 +455,14 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{c3fdc27c-48e6-4ae9-a8ad-9d890655e3f0}</uid>
+                               <uid>{a0d39717-022a-4478-9611-c6b91f224f0a}</uid>
                                <type>2</type>
                                <declaration>double maxBalance()</declaration>
                               </MClassMember>
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{417991db-674f-4acc-ac1f-d8c9c2ec3d35}</uid>
+                               <uid>{7f331e75-cbc1-461d-a09d-a02563e291d8}</uid>
                                <type>2</type>
                                <declaration>void setMaxBalance(double newMaxBalance, const QString&amp; excessReceiver=&quot;&quot;)</declaration>
                               </MClassMember>
@@ -535,7 +535,7 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{11b65459-cd8a-4650-8ca1-56c9e38aec96}</uid>
+                    <uid>{d808c6c5-04ce-410b-8618-52f2a5a0889b}</uid>
                     <type>2</type>
                     <properties>4</properties>
                     <declaration>double minBalance()</declaration>
@@ -543,7 +543,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{dbde31c9-4e3b-4df4-afda-3249b7d4b8a7}</uid>
+                    <uid>{f681d4e3-cc94-4f8a-adb1-42adb473e3b5}</uid>
                     <type>2</type>
                     <declaration>void setBackup(const QString&amp; backup)</declaration>
                    </MClassMember>
@@ -656,63 +656,63 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{d85df566-51db-4e2d-a06e-af4195a78efa}</uid>
+                    <uid>{c89d8876-f438-45c9-99a5-0a974516be92}</uid>
                     <type>2</type>
                     <declaration>Account* getAccount(const QString&amp; number)</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{053318e1-35c0-4482-ac19-261c4f78dc47}</uid>
+                    <uid>{6889865d-73b6-4e71-8167-ce92bf116f22}</uid>
                     <type>2</type>
                     <declaration>bool isCheckingAcc(const QString&amp; number)</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{37865f31-8984-4665-93f0-d67e5c273a9a}</uid>
+                    <uid>{a274e2c8-2df5-4c6c-ae14-4e5a85da1b03}</uid>
                     <type>2</type>
                     <declaration>bool isSavingsAcc(const QString&amp; number)</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{49336f7e-554a-4009-a66c-3faf9dcc73e2}</uid>
+                    <uid>{f232e1b0-9114-41c9-b1ee-67a9a9b30b47}</uid>
                     <type>2</type>
                     <declaration>bool isLineOfCreditAcc(const QString&amp; number)</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{ba6e1ec6-0bb2-4074-ba16-c2d8aa322519}</uid>
+                    <uid>{6ea3b9a3-99d8-4a28-9afe-ff003abc67fa}</uid>
                     <type>2</type>
                     <declaration>void updateBalance(const QString&amp; number, double val)</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{7a9ebde7-3994-44b3-99ba-506cee35d13a}</uid>
+                    <uid>{055c7d76-7ad5-4cf6-9bb5-7e96a3cfef62}</uid>
                     <type>2</type>
                     <declaration>void updateMaxBalance(const QString&amp; number, double balance)</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{c310118e-56fa-4163-bf09-efbb1d1e960d}</uid>
+                    <uid>{d61c49e5-da1a-41af-ac9f-c6fb3c572d06}</uid>
                     <type>2</type>
                     <declaration>void updateExcessReceiver(const QString&amp; number, const QString&amp; excessReceiver)</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{5cbc9873-698d-4594-8385-c504e94969e6}</uid>
+                    <uid>{f8602a36-24df-44b2-a368-efd968b64608}</uid>
                     <type>2</type>
                     <declaration>void updateMinBalance(const QString&amp; number, double val)</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{a08c1c6f-39ed-4aa2-bada-dda220013ac7}</uid>
+                    <uid>{de82235e-63b1-49ae-b1e4-6a5eca9ec2df}</uid>
                     <type>2</type>
                     <declaration>void updateBackup(const QString&amp; number, const QString&amp; backup)</declaration>
                    </MClassMember>

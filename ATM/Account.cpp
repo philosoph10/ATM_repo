@@ -64,6 +64,8 @@ void Account::setPincode(const QString &newPincode)
     {
         throw BadAccount("Pin-code of wrong length at Account::setPincode");
     }
+    _pincode = newPincode;
+    _db->updatePincode(_number, newPincode);
 }
 
 const QString& Account::email() const

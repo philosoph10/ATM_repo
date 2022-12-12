@@ -157,6 +157,27 @@ void ClientBase::updateBackup(const QString &number, const QString &backup)
     }
 }
 
+void ClientBase::updatePincode(const QString &number, const QString &pincode)
+{
+    update();
+    QJsonValue value = _kernel.value(QString("Accounts"));
+    QJsonArray accounts = value.toArray();
+    for (int i = 0; i < accounts.size(); ++i) {
+        QJsonObject account = accounts[i].toObject();
+        QString curNumber = account.value("Number").toString();
+        if (curNumber != number) continue;
+        if(account.contains("Pin-code")) account.remove("Pin-code");
+        account.insert("Pin-code", pincode);
+        accounts.removeAt(i);
+        accounts.insert(i, account);
+        //qDebug() << accounts.size() << '\n';
+        _kernel.remove("Accounts");
+        _kernel.insert("Accounts", accounts);
+        rewriteFile();
+        return;
+    }
+}
+
 void ClientBase::update()
 {
     QString contents;
