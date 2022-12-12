@@ -3,29 +3,14 @@
 #include <QDebug>
 
 SavingsAccount::SavingsAccount(const QString& number, const QString& pincode,
-                               const QString& email, ClientBase* db, double initBalance,
-                               double interest) :
-    Account(number, pincode, email, db, initBalance), _interest(interest)
+                               const QString& email, ClientBase* db, double initBalance) :
+    Account(number, pincode, email, db, initBalance)
 {
-    if (_interest < 0)
-    {
-        throw BadAccount("Interest < 0 at SavingsAccount::SavingsAccount");
-    }
 }
 
 SavingsAccount::~SavingsAccount()
 {
 
-}
-
-double SavingsAccount::interest() const
-{
-    return _interest;
-}
-
-double &SavingsAccount::interest()
-{
-    return _interest;
 }
 
 void SavingsAccount::doWithdraw(double sum)

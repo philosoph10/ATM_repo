@@ -204,8 +204,7 @@ Account *ClientBase::getSavingsAcc(const QJsonObject &account)
     QString pincode = account.value("Pin-code").toString();
     QString email = account.value("E-mail").toString();
     double balance = account.value("Balance").toDouble();
-    double interest = account.value("Intrest").toDouble();
-    return new SavingsAccount(number, pincode, email, this, balance, interest);
+    return new SavingsAccount(number, pincode, email, this, balance);
 }
 
 Account *ClientBase::getLineOfCreditAcc(const QJsonObject &account)

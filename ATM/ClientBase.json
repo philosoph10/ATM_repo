@@ -1,7 +1,7 @@
 {
     "Accounts": [
         {
-            "Balance": 2800,
+            "Balance": 2000,
             "E-mail": "0991234567",
             "Excess-receiver": "0987654321123456",
             "Max-balance": 3000,
@@ -10,7 +10,7 @@
             "Type": "Checking"
         },
         {
-            "Balance": 7200,
+            "Balance": 7000,
             "E-mail": "0501112233",
             "Interest": 1.5,
             "Number": "0987654321123456",
@@ -19,7 +19,7 @@
         },
         {
             "Back-up": "0987654321123456",
-            "Balance": 2000,
+            "Balance": 3000,
             "E-mail": "0670009988",
             "Min-balance": 2000,
             "Number": "1234561234567890",

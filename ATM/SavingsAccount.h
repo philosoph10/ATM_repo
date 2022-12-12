@@ -6,18 +6,14 @@
 #include <QObject>
 //#include "qobjectdefs.h"
 
-// savings account increases by an interest rate every month, allowing to accumulate money,
-// but it imposes restrictions on withdrawals
+// commission is taken at every withdrawal from a savings account
 class SavingsAccount: public Account
 {
 public:
     SavingsAccount(const QString& number, const QString& pincode, const QString& email,
-                   ClientBase* db, double initBalance, double interest=0);
+                   ClientBase* db, double initBalance);
     ~SavingsAccount();
-    double interest() const;
-    double& interest();
 private:
-    double _interest;
     const double _COMMISSION = 0.01;
     void doWithdraw(double);
 };
