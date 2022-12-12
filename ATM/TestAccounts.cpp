@@ -120,6 +120,10 @@ void TestAccounts::checkWithdraw()
     QCOMPARE(la->balance(), min_balance);
     QCOMPARE(sa->balance(), savings_balance - 100);
 
+    double sa_balance = sa->balance();
+    sa->withdraw(sa_balance / 2);
+    QCOMPARE(sa->balance(), sa_balance - sa_balance / 2 * 1.01);
+
     delete db;
 }
 
