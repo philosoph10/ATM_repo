@@ -4,7 +4,7 @@
 
 // line of credit account has an option of setting the minimal balance,
 // i.e. if the balance drops below a certain sum,
-// it is augmented with money from a different account
+// it is augmented with money from a back-up account
 class LineOfCreditAccount: public Account
 {
 public:
