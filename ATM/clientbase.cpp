@@ -16,8 +16,7 @@ Account *ClientBase::getAccount(const QString &number)
     for (int i = 0; i < accounts.size(); ++i) {
         QJsonObject account = accounts[i].toObject();
         QString curNumber = account.value("Number").toString();
-        if (curNumber != number) continue;
-        QString type = account.value("Type").toString();
+        if (curNumber != number) continue;     QString type = account.value("Type").toString();
         if(type == "Checking")
         {
             return getCheckingAcc(account);

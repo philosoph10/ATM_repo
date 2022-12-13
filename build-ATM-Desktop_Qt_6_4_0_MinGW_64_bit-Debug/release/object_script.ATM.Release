@@ -1,5 +1,5 @@
-release/TestAccounts.o
 release/clientbase.o
+release/mailsender.o
 release/main.o
 release/checkingaccount.o
 release/savingsaccount.o

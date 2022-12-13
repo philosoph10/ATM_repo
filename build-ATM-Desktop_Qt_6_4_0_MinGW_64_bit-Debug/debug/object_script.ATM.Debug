@@ -1,5 +1,5 @@
-debug/TestAccounts.o
 debug/clientbase.o
+debug/mailsender.o
 debug/main.o
 debug/checkingaccount.o
 debug/savingsaccount.o

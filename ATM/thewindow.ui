@@ -27,7 +27,7 @@
      <string notr="true"/>
     </property>
     <property name="currentIndex">
-     <number>8</number>
+     <number>11</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QPushButton" name="loginButton">
@@ -136,6 +136,31 @@
       </property>
       <property name="text">
        <string>Incorrect number or pin</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="forgottenPasswordPushButton">
+      <property name="geometry">
+       <rect>
+        <x>205</x>
+        <y>190</y>
+        <width>80</width>
+        <height>12</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+color: blue;
+text-align: left;
+border: none;</string>
+      </property>
+      <property name="text">
+       <string>Forgot pin-code?</string>
       </property>
      </widget>
     </widget>
@@ -1141,6 +1166,384 @@ you pick now.</string>
       </property>
       <property name="text">
        <string>New Card Number:</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_16">
+     <widget class="QLabel" name="label_73">
+      <property name="geometry">
+       <rect>
+        <x>39</x>
+        <y>110</y>
+        <width>141</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Account Number:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="numberLineEditForRecovery">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>110</y>
+        <width>183</width>
+        <height>30</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_74">
+      <property name="geometry">
+       <rect>
+        <x>39</x>
+        <y>150</y>
+        <width>171</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Account Email Address:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="emailErrorLabel">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>180</y>
+        <width>113</width>
+        <height>12</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: red</string>
+      </property>
+      <property name="text">
+       <string>Incorrect number or email</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="emailLineEdit">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>150</y>
+        <width>183</width>
+        <height>30</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_75">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>381</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Please provide your account number and
+the email address connected to it.
+We will send a verification code to the email.</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sendCodeButton">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>200</y>
+        <width>83</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Send code</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="cancelRecoveryButton">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>leftarrow.png</normaloff>leftarrow.png</iconset>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_49">
+     <widget class="QPushButton" name="prepareResetCodeButton">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>210</y>
+        <width>83</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Next</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="recoveryCodeLineEdit">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>120</y>
+        <width>113</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>xxxxxx</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_76">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>120</y>
+        <width>81</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Code:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_77">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>381</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>A 6-digit code was sent to your address.
+Please enter it below</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="resendCodeButton">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>180</y>
+        <width>80</width>
+        <height>12</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: white;
+color: blue;
+text-align: right;
+border: none;</string>
+      </property>
+      <property name="text">
+       <string>Resend code</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="codeErrorLabel">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>150</y>
+        <width>113</width>
+        <height>12</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: red</string>
+      </property>
+      <property name="text">
+       <string>Incorrect code</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="cancelCodeSendingButton">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>leftarrow.png</normaloff>leftarrow.png</iconset>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_17">
+     <widget class="QPushButton" name="confirmNewPinButton">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>210</y>
+        <width>83</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Confirm</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_78">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>130</y>
+        <width>121</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Repeat pin-code:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="pinsMismatchErrorLabel">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>160</y>
+        <width>113</width>
+        <height>12</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>7</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: red</string>
+      </property>
+      <property name="text">
+       <string>Pin-codes do not match.</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="cancelPinResetButton">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>leftarrow.png</normaloff>leftarrow.png</iconset>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="repeatPinLineEdit">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>130</y>
+        <width>113</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>xxxx</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_79">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>90</y>
+        <width>121</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>New pin-code:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="newPinLineEdit">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>90</y>
+        <width>113</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>xxxx</string>
       </property>
      </widget>
     </widget>

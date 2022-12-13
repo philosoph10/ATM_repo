@@ -13,6 +13,7 @@
 #include "CheckingAccount.h"
 #include "LineOfCreditAccount.h"
 #include "clientbase.h"
+#include "mailsender.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class TheWindow; }
@@ -33,6 +34,10 @@ private slots:
 
     void performLogout();
 
+    void performPasswordRecovery();
+
+    void prepareResetPin();
+
     void prepareToPutCash();
 
     void prepareToObtainCash();
@@ -42,6 +47,12 @@ private slots:
     void prepareToSurfeitProcessing();
 
     void prepareToChangingBackup();
+
+    void cancelEnteringMail();
+
+    void cancelCodeVerification();
+
+    void cancelPinReset();
 
     void cancelPuttingCash();
 
@@ -53,13 +64,24 @@ private slots:
 
     void cancelChangingBackup();
 
+    void verifyEmailAndSendCode();
+
+    void sendCode();
+
+    void resetPincode();
+
 private:
     Ui::TheWindow *ui;
     Account* _workingAccount;
     ClientBase* _db;
+    MailSender* _sender;
+    QString* _recoveryCode;
 
 private:
     void setUpRegisterScreen();
+    void setUpEmailEnteringScreen();
+    void setUpCodeVerificationScreen();
+    void setUpPinCodeResetScreen();
     void setUpCheckingAccScreen();
     void setUpSavingsAccScreen();
     void setUpLineOfCreditAccScreen();

@@ -27,23 +27,31 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 namespace {
 struct qt_meta_stringdata_TheWindow_t {
-    uint offsetsAndSizes[32];
+    uint offsetsAndSizes[48];
     char stringdata0[10];
     char stringdata1[14];
     char stringdata2[9];
     char stringdata3[1];
     char stringdata4[23];
     char stringdata5[14];
-    char stringdata6[17];
-    char stringdata7[20];
-    char stringdata8[23];
-    char stringdata9[27];
-    char stringdata10[24];
-    char stringdata11[18];
-    char stringdata12[20];
-    char stringdata13[15];
-    char stringdata14[24];
-    char stringdata15[21];
+    char stringdata6[24];
+    char stringdata7[16];
+    char stringdata8[17];
+    char stringdata9[20];
+    char stringdata10[23];
+    char stringdata11[27];
+    char stringdata12[24];
+    char stringdata13[19];
+    char stringdata14[23];
+    char stringdata15[15];
+    char stringdata16[18];
+    char stringdata17[20];
+    char stringdata18[15];
+    char stringdata19[24];
+    char stringdata20[21];
+    char stringdata21[23];
+    char stringdata22[9];
+    char stringdata23[13];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_TheWindow_t::offsetsAndSizes) + ofs), len 
@@ -55,16 +63,24 @@ Q_CONSTINIT static const qt_meta_stringdata_TheWindow_t qt_meta_stringdata_TheWi
         QT_MOC_LITERAL(33, 0),  // ""
         QT_MOC_LITERAL(34, 22),  // "on_loginButton_clicked"
         QT_MOC_LITERAL(57, 13),  // "performLogout"
-        QT_MOC_LITERAL(71, 16),  // "prepareToPutCash"
-        QT_MOC_LITERAL(88, 19),  // "prepareToObtainCash"
-        QT_MOC_LITERAL(108, 22),  // "prepareToTransferMoney"
-        QT_MOC_LITERAL(131, 26),  // "prepareToSurfeitProcessing"
-        QT_MOC_LITERAL(158, 23),  // "prepareToChangingBackup"
-        QT_MOC_LITERAL(182, 17),  // "cancelPuttingCash"
-        QT_MOC_LITERAL(200, 19),  // "cancelObtainingCash"
-        QT_MOC_LITERAL(220, 14),  // "cancelTransfer"
-        QT_MOC_LITERAL(235, 23),  // "cancelSurfeitProcessing"
-        QT_MOC_LITERAL(259, 20)   // "cancelChangingBackup"
+        QT_MOC_LITERAL(71, 23),  // "performPasswordRecovery"
+        QT_MOC_LITERAL(95, 15),  // "prepareResetPin"
+        QT_MOC_LITERAL(111, 16),  // "prepareToPutCash"
+        QT_MOC_LITERAL(128, 19),  // "prepareToObtainCash"
+        QT_MOC_LITERAL(148, 22),  // "prepareToTransferMoney"
+        QT_MOC_LITERAL(171, 26),  // "prepareToSurfeitProcessing"
+        QT_MOC_LITERAL(198, 23),  // "prepareToChangingBackup"
+        QT_MOC_LITERAL(222, 18),  // "cancelEnteringMail"
+        QT_MOC_LITERAL(241, 22),  // "cancelCodeVerification"
+        QT_MOC_LITERAL(264, 14),  // "cancelPinReset"
+        QT_MOC_LITERAL(279, 17),  // "cancelPuttingCash"
+        QT_MOC_LITERAL(297, 19),  // "cancelObtainingCash"
+        QT_MOC_LITERAL(317, 14),  // "cancelTransfer"
+        QT_MOC_LITERAL(332, 23),  // "cancelSurfeitProcessing"
+        QT_MOC_LITERAL(356, 20),  // "cancelChangingBackup"
+        QT_MOC_LITERAL(377, 22),  // "verifyEmailAndSendCode"
+        QT_MOC_LITERAL(400, 8),  // "sendCode"
+        QT_MOC_LITERAL(409, 12)   // "resetPincode"
     },
     "TheWindow",
     "registerCheck",
@@ -72,16 +88,24 @@ Q_CONSTINIT static const qt_meta_stringdata_TheWindow_t qt_meta_stringdata_TheWi
     "",
     "on_loginButton_clicked",
     "performLogout",
+    "performPasswordRecovery",
+    "prepareResetPin",
     "prepareToPutCash",
     "prepareToObtainCash",
     "prepareToTransferMoney",
     "prepareToSurfeitProcessing",
     "prepareToChangingBackup",
+    "cancelEnteringMail",
+    "cancelCodeVerification",
+    "cancelPinReset",
     "cancelPuttingCash",
     "cancelObtainingCash",
     "cancelTransfer",
     "cancelSurfeitProcessing",
-    "cancelChangingBackup"
+    "cancelChangingBackup",
+    "verifyEmailAndSendCode",
+    "sendCode",
+    "resetPincode"
 };
 #undef QT_MOC_LITERAL
 } // unnamed namespace
@@ -92,7 +116,7 @@ Q_CONSTINIT static const uint qt_meta_data_TheWindow[] = {
       10,       // revision
        0,       // classname
        0,    0, // classinfo
-      13,   14, // methods
+      21,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -100,22 +124,38 @@ Q_CONSTINIT static const uint qt_meta_data_TheWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   92,    3, 0x08,    1 /* Private */,
-       4,    0,   93,    3, 0x08,    2 /* Private */,
-       5,    0,   94,    3, 0x08,    3 /* Private */,
-       6,    0,   95,    3, 0x08,    4 /* Private */,
-       7,    0,   96,    3, 0x08,    5 /* Private */,
-       8,    0,   97,    3, 0x08,    6 /* Private */,
-       9,    0,   98,    3, 0x08,    7 /* Private */,
-      10,    0,   99,    3, 0x08,    8 /* Private */,
-      11,    0,  100,    3, 0x08,    9 /* Private */,
-      12,    0,  101,    3, 0x08,   10 /* Private */,
-      13,    0,  102,    3, 0x08,   11 /* Private */,
-      14,    0,  103,    3, 0x08,   12 /* Private */,
-      15,    0,  104,    3, 0x08,   13 /* Private */,
+       1,    0,  140,    3, 0x08,    1 /* Private */,
+       4,    0,  141,    3, 0x08,    2 /* Private */,
+       5,    0,  142,    3, 0x08,    3 /* Private */,
+       6,    0,  143,    3, 0x08,    4 /* Private */,
+       7,    0,  144,    3, 0x08,    5 /* Private */,
+       8,    0,  145,    3, 0x08,    6 /* Private */,
+       9,    0,  146,    3, 0x08,    7 /* Private */,
+      10,    0,  147,    3, 0x08,    8 /* Private */,
+      11,    0,  148,    3, 0x08,    9 /* Private */,
+      12,    0,  149,    3, 0x08,   10 /* Private */,
+      13,    0,  150,    3, 0x08,   11 /* Private */,
+      14,    0,  151,    3, 0x08,   12 /* Private */,
+      15,    0,  152,    3, 0x08,   13 /* Private */,
+      16,    0,  153,    3, 0x08,   14 /* Private */,
+      17,    0,  154,    3, 0x08,   15 /* Private */,
+      18,    0,  155,    3, 0x08,   16 /* Private */,
+      19,    0,  156,    3, 0x08,   17 /* Private */,
+      20,    0,  157,    3, 0x08,   18 /* Private */,
+      21,    0,  158,    3, 0x08,   19 /* Private */,
+      22,    0,  159,    3, 0x08,   20 /* Private */,
+      23,    0,  160,    3, 0x08,   21 /* Private */,
 
  // slots: parameters
     0x80000000 | 2,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -147,6 +187,10 @@ Q_CONSTINIT const QMetaObject TheWindow::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'performLogout'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'performPasswordRecovery'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'prepareResetPin'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'prepareToPutCash'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'prepareToObtainCash'
@@ -157,6 +201,12 @@ Q_CONSTINIT const QMetaObject TheWindow::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'prepareToChangingBackup'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'cancelEnteringMail'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'cancelCodeVerification'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'cancelPinReset'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'cancelPuttingCash'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'cancelObtainingCash'
@@ -166,6 +216,12 @@ Q_CONSTINIT const QMetaObject TheWindow::staticMetaObject = { {
         // method 'cancelSurfeitProcessing'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'cancelChangingBackup'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'verifyEmailAndSendCode'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'sendCode'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'resetPincode'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -181,16 +237,24 @@ void TheWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
             if (_a[0]) *reinterpret_cast< Account**>(_a[0]) = std::move(_r); }  break;
         case 1: _t->on_loginButton_clicked(); break;
         case 2: _t->performLogout(); break;
-        case 3: _t->prepareToPutCash(); break;
-        case 4: _t->prepareToObtainCash(); break;
-        case 5: _t->prepareToTransferMoney(); break;
-        case 6: _t->prepareToSurfeitProcessing(); break;
-        case 7: _t->prepareToChangingBackup(); break;
-        case 8: _t->cancelPuttingCash(); break;
-        case 9: _t->cancelObtainingCash(); break;
-        case 10: _t->cancelTransfer(); break;
-        case 11: _t->cancelSurfeitProcessing(); break;
-        case 12: _t->cancelChangingBackup(); break;
+        case 3: _t->performPasswordRecovery(); break;
+        case 4: _t->prepareResetPin(); break;
+        case 5: _t->prepareToPutCash(); break;
+        case 6: _t->prepareToObtainCash(); break;
+        case 7: _t->prepareToTransferMoney(); break;
+        case 8: _t->prepareToSurfeitProcessing(); break;
+        case 9: _t->prepareToChangingBackup(); break;
+        case 10: _t->cancelEnteringMail(); break;
+        case 11: _t->cancelCodeVerification(); break;
+        case 12: _t->cancelPinReset(); break;
+        case 13: _t->cancelPuttingCash(); break;
+        case 14: _t->cancelObtainingCash(); break;
+        case 15: _t->cancelTransfer(); break;
+        case 16: _t->cancelSurfeitProcessing(); break;
+        case 17: _t->cancelChangingBackup(); break;
+        case 18: _t->verifyEmailAndSendCode(); break;
+        case 19: _t->sendCode(); break;
+        case 20: _t->resetPincode(); break;
         default: ;
         }
     }
@@ -215,13 +279,13 @@ int TheWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 13)
+        if (_id < 21)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 13;
+        _id -= 21;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 13)
+        if (_id < 21)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 13;
+        _id -= 21;
     }
     return _id;
 }

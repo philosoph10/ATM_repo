@@ -2,12 +2,14 @@
 #include "ui_thewindow.h"
 #include <QDebug>
 #include <QRegularExpressionValidator>
+#include <QRandomGenerator>
 
 TheWindow::TheWindow(QWidget *parent, QDir databaseDir)
     : QMainWindow(parent)
     , ui(new Ui::TheWindow)
     , _workingAccount(nullptr)
     , _db(new ClientBase(databaseDir.absolutePath() + "/ClientBase.json"))
+    ,  _sender(new MailSender("atm.moop@gmail.com", "vnmqmwwkeudmxrha"))
 {
     ui->setupUi(this);
     ui->stackedWidget->setStyleSheet("background-color: white");
@@ -21,6 +23,11 @@ TheWindow::TheWindow(QWidget *parent, QDir databaseDir)
     setUpTransferScreen();
     setUpSurfeitProcessing();
     setUpChangingBackup();
+    setUpEmailEnteringScreen();
+    setUpCodeVerificationScreen();
+    setUpPinCodeResetScreen();
+//    bool success = _sender->sendMail("theophil2002@gmail.com", "theophil", "Qt message", "Read me carefully!");
+//    qDebug() << "Success: " << success << '\n';
 }
 
 TheWindow::~TheWindow()
@@ -28,6 +35,7 @@ TheWindow::~TheWindow()
     delete ui;
     if(_workingAccount != nullptr) delete _workingAccount;
     delete _db;
+    delete _sender;
 }
 
 Account* TheWindow::registerCheck()
@@ -49,7 +57,39 @@ void TheWindow::setUpRegisterScreen()
     ui->numberLineEdit->setPlaceholderText("xxxxxxxxxxxxxxxx");
     ui->pinLineEdit->setPlaceholderText("xxxx");
     connect(ui->pinLineEdit, &QLineEdit::returnPressed, this, &TheWindow::on_loginButton_clicked);
+    connect(ui->forgottenPasswordPushButton, &QPushButton::clicked, this, &TheWindow::performPasswordRecovery);
     ui->registerErrorLabel->hide();
+}
+
+void TheWindow::setUpEmailEnteringScreen()
+{
+    connect(ui->cancelRecoveryButton, &QPushButton::clicked, this, &TheWindow::cancelEnteringMail);
+    connect(ui->sendCodeButton, &QPushButton::clicked, this, &TheWindow::verifyEmailAndSendCode);
+    connect(ui->emailLineEdit, &QLineEdit::returnPressed, this, &TheWindow::verifyEmailAndSendCode);
+    ui->numberLineEditForRecovery->setPlaceholderText("xxxxxxxxxxxxxxxx");
+    ui->emailLineEdit->setPlaceholderText("myaddress@example.com");
+    ui->numberLineEdit->setValidator(new QRegularExpressionValidator(QRegularExpression("[0-9]{0,16}")));
+    ui->emailErrorLabel->hide();
+}
+
+void TheWindow::setUpCodeVerificationScreen()
+{
+    connect(ui->cancelCodeSendingButton, &QPushButton::clicked, this, &TheWindow::cancelCodeVerification);
+    connect(ui->resendCodeButton, &QPushButton::clicked, this, &TheWindow::sendCode);
+    connect(ui->prepareResetCodeButton, &QPushButton::clicked, this, &TheWindow::prepareResetPin);
+    connect(ui->recoveryCodeLineEdit, &QLineEdit::returnPressed, this, &TheWindow::prepareResetPin);
+    ui->codeErrorLabel->hide();
+    ui->recoveryCodeLineEdit->setValidator(new QRegularExpressionValidator(QRegularExpression("[0-9]{6}")));
+}
+
+void TheWindow::setUpPinCodeResetScreen()
+{
+    connect(ui->cancelPinResetButton, &QPushButton::clicked, this, &TheWindow::cancelPinReset);
+    connect(ui->confirmNewPinButton, &QPushButton::clicked, this, &TheWindow::resetPincode);
+    connect(ui->repeatPinLineEdit, &QLineEdit::returnPressed, this, &TheWindow::resetPincode);
+    ui->newPinLineEdit->setValidator(new QRegularExpressionValidator(QRegularExpression("[0-9]{4}")));
+    ui->repeatPinLineEdit->setValidator(new QRegularExpressionValidator(QRegularExpression("[0-9]{4}")));
+    ui->pinsMismatchErrorLabel->hide();
 }
 
 void TheWindow::setUpCheckingAccScreen()
@@ -242,6 +282,23 @@ void TheWindow::performLogout()
     ui->stackedWidget->setCurrentIndex(0);
 }
 
+void TheWindow::performPasswordRecovery()
+{
+    ui->stackedWidget->setCurrentIndex(9);
+}
+
+void TheWindow::prepareResetPin()
+{
+    if(ui->recoveryCodeLineEdit->text() != *_recoveryCode)
+    {
+        ui->codeErrorLabel->show();
+        return;
+    }
+    ui->stackedWidget->setCurrentIndex(11);
+    ui->recoveryCodeLineEdit->clear();
+    ui->codeErrorLabel->hide();
+}
+
 void TheWindow::prepareToPutCash()
 {
     ui->stackedWidget->setCurrentIndex(4);
@@ -267,6 +324,31 @@ void TheWindow::prepareToChangingBackup()
     ui->stackedWidget->setCurrentIndex(8);
 }
 
+void TheWindow::cancelEnteringMail()
+{
+    ui->stackedWidget->setCurrentIndex(0);
+    ui->numberLineEditForRecovery->clear();
+    ui->emailLineEdit->clear();
+    ui->emailErrorLabel->hide();
+}
+
+void TheWindow::cancelCodeVerification()
+{
+    ui->stackedWidget->setCurrentIndex(0);
+    _recoveryCode = nullptr;
+    ui->recoveryCodeLineEdit->clear();
+    ui->codeErrorLabel->hide();
+}
+
+void TheWindow::cancelPinReset()
+{
+    ui->stackedWidget->setCurrentIndex(0);
+    _recoveryCode = nullptr;
+    ui->newPinLineEdit->clear();
+    ui->repeatPinLineEdit->clear();
+    ui->pinsMismatchErrorLabel->hide();
+}
+
 void TheWindow::cancelPuttingCash()
 {
     jumpToCorrectScreen();
@@ -290,5 +372,64 @@ void TheWindow::cancelSurfeitProcessing()
 void TheWindow::cancelChangingBackup()
 {
     jumpToCorrectScreen();
+}
+
+void TheWindow::verifyEmailAndSendCode()
+{
+    _workingAccount = _db->getAccount(ui->numberLineEditForRecovery->text());
+    if (_workingAccount == nullptr)
+    {
+        ui->emailErrorLabel->show();
+        return;
+    }
+    if(_workingAccount->email() != ui->emailLineEdit->text())
+    {
+        ui->emailErrorLabel->show();
+        return;
+    }
+    ui->numberLineEditForRecovery->clear();
+    ui->emailLineEdit->clear();
+    ui->emailErrorLabel->hide();
+    sendCode();
+    ui->stackedWidget->setCurrentIndex(10);
+}
+
+void TheWindow::sendCode()
+{
+    _sender = new MailSender("atm.moop@gmail.com", "vnmqmwwkeudmxrha");
+    int codeVal = QRandomGenerator::system()->bounded(1000000);
+    QString code = QString::number(codeVal);
+    while(code.length() < 6) code = '0' + code;
+    QString body = "Use this code to change your pin-code: " + code;
+    qDebug() << "Receiver = " << _workingAccount->email() << '\n';
+    _sender->sendMail(_workingAccount->email(), "Dear Client", "Pincode Recovery", body);
+    QMessageBox messageBox;
+    messageBox.information(0,"Important","A code was sent to your email.\nPlease go check your mailbox!");
+    messageBox.setFixedSize(500,200);
+    _recoveryCode = new QString(code);
+}
+
+void TheWindow::resetPincode()
+{
+    QString pincode = ui->newPinLineEdit->text();
+    if(pincode != ui->repeatPinLineEdit->text())
+    {
+        ui->pinsMismatchErrorLabel->show();
+        return;
+    }
+    try {
+        _workingAccount->setPincode(pincode);
+    }
+    catch (const Account::BadAccount& err) {
+        QMessageBox messageBox;
+        messageBox.critical(0,"Error","An error occured while processing your request.\nWe are sorry "
+                                      "for the inconvenience.");
+        messageBox.setFixedSize(500,200);
+        return;
+    }
+    ui->pinsMismatchErrorLabel->hide();
+    ui->newPinLineEdit->clear();
+    ui->repeatPinLineEdit->clear();
+    ui->stackedWidget->setCurrentIndex(0);
 }
 

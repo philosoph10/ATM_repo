@@ -10,6 +10,7 @@ CONFIG += c++17
 SOURCES += \
     #TestAccounts.cpp \
     clientbase.cpp \
+    mailsender.cpp \
     main.cpp \
     checkingaccount.cpp \
     savingsaccount.cpp \
@@ -23,6 +24,7 @@ HEADERS += \
     LineOfCreditAccount.h \
     SavingsAccount.h \
     clientbase.h \
+    mailsender.h \
     thewindow.h
 
 FORMS += \
@@ -44,9 +46,16 @@ QT += widgets testlib
 target.path = $$[QT_INSTALL_EXAMPLES]/qtestlib/tutorial1
 INSTALLS += target
 
-#win32:CONFIG(release, debug|release): LIBS += -L$$PWD/'../../../../QT Console Apps/SimpleSmtp_SSL_QT5-master/build-smtp-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/release/' -lsmtp
-#else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/'../../../../QT Console Apps/SimpleSmtp_SSL_QT5-master/build-smtp-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/debug/' -lsmtp
-#else:unix: LIBS += -L$$PWD/'../../../../QT Console Apps/SimpleSmtp_SSL_QT5-master/build-smtp-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/' -lsmtp
+#win32:CONFIG(release, debug|release): LIBS += -L$$PWD/../../../../SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/release/ -lSmtpMime2
+#else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/../../../../SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/debug/ -lSmtpMime2
+#else:unix: LIBS += -L$$PWD/../../../../SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/ -lSmtpMime2
 
-#INCLUDEPATH += $$PWD/'../../../../QT Console Apps/SimpleSmtp_SSL_QT5-master/build-smtp-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/debug'
-#DEPENDPATH += $$PWD/'../../../../QT Console Apps/SimpleSmtp_SSL_QT5-master/build-smtp-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/debug'
+#INCLUDEPATH += $$PWD/../../../../SmtpClient-for-Qt-2.0/src
+#DEPENDPATH += $$PWD/../../../../SmtpClient-for-Qt-2.0/src
+
+win32:CONFIG(release, debug|release): LIBS += -L$$PWD/../SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/release/ -lSmtpMime2
+else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/../SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/debug/ -lSmtpMime2
+else:unix: LIBS += -L$$PWD/../SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/ -lSmtpMime2
+
+INCLUDEPATH += $$PWD/../SmtpClient-for-Qt-2.0/src
+DEPENDPATH += $$PWD/../SmtpClient-for-Qt-2.0/src
