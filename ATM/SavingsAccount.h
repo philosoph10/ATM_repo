@@ -4,7 +4,6 @@
 #include <QTime>
 #include "Account.h"
 #include <QObject>
-//#include "qobjectdefs.h"
 
 // commission is taken at every withdrawal from a savings account
 class SavingsAccount: public Account
