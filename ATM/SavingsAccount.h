@@ -4,7 +4,6 @@
 #include <QTime>
 #include "Account.h"
 #include <QObject>
-//#include "qobjectdefs.h"
 
 // savings account increases by an interest rate every month, allowing to accumulate money,
 // but it imposes restrictions on withdrawals
