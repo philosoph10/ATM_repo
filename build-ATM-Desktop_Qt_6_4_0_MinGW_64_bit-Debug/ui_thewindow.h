@@ -604,7 +604,7 @@ public:
 
     void retranslateUi(QMainWindow *TheWindow)
     {
-        TheWindow->setWindowTitle(QCoreApplication::translate("TheWindow", "MainWindow", nullptr));
+        TheWindow->setWindowTitle(QCoreApplication::translate("TheWindow", "ATM", nullptr));
         loginButton->setText(QCoreApplication::translate("TheWindow", "Login", nullptr));
         label_2->setText(QCoreApplication::translate("TheWindow", "Register", nullptr));
         label_3->setText(QCoreApplication::translate("TheWindow", "Account Number:", nullptr));

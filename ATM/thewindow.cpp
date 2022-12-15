@@ -33,9 +33,16 @@ TheWindow::TheWindow(QWidget *parent, QDir databaseDir)
 TheWindow::~TheWindow()
 {
     delete ui;
-    if(_workingAccount != nullptr) delete _workingAccount;
+    if(_workingAccount != nullptr)
+    {
+        delete _workingAccount;
+    }
     delete _db;
     delete _sender;
+    if(_recoveryCode != nullptr)
+    {
+        delete _recoveryCode;
+    }
 }
 
 Account* TheWindow::registerCheck()
@@ -396,6 +403,10 @@ void TheWindow::verifyEmailAndSendCode()
 
 void TheWindow::sendCode()
 {
+    if (_sender != nullptr)
+    {
+        delete _sender;
+    }
     _sender = new MailSender("atm.moop@gmail.com", "vnmqmwwkeudmxrha");
     int codeVal = QRandomGenerator::system()->bounded(1000000);
     QString code = QString::number(codeVal);

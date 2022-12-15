@@ -8,30 +8,6 @@ MailSender::MailSender(QString login, QString password, QString name, QString ho
 
 bool MailSender::sendMail(QString receiverAddress, QString receiverName, QString subject, QString body)
 {
-//    MimeMessage message;
-
-//    EmailAddress sender(_login, _name);
-//    message.setSender(sender);
-
-//    EmailAddress to(receiverAddress, receiverName);
-//    message.addRecipient(to);
-
-//    message.setSubject(subject);
-
-//    MimeText text;
-//    text.setText(body);
-
-//    message.addPart(&text);
-
-//    SmtpClient smtp("smtp.gmail.com", 465, SmtpClient::SslConnection);
-//    smtp.connectToHost();
-//    if (!smtp.waitForReadyConnected()) return false;
-//    smtp.login(_login, _password);
-//    qDebug() << "Connected to host...\n";
-//    smtp.sendMail(message);
-//    if (!smtp.waitForMailSent()) return false;
-//    smtp.quit();
-//    return true;
     MimeMessage message;
 
     EmailAddress sender(_login, "ATM");
@@ -59,7 +35,7 @@ bool MailSender::sendMail(QString receiverAddress, QString receiverName, QString
     _smtp.connectToHost();
     if (!_smtp.waitForReadyConnected()) {
         qDebug() << "Failed to connect to host!";
-        return -1;
+        return false;
     }
 
     _smtp.login(_login, _password);

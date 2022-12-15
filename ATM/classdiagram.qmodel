@@ -50,8 +50,8 @@
                          <object>{ee62190d-d986-4ca2-b28c-0b5db1ae6272}</object>
                          <context>ATM</context>
                          <name>Account</name>
-                         <pos>x:120;y:-180</pos>
-                         <rect>x:-70;y:-60;w:140;h:120</rect>
+                         <pos>x:195;y:-175</pos>
+                         <rect>x:-135;y:-95;w:270;h:190</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -72,8 +72,8 @@
                          <object>{3f043161-7205-4d69-aeec-0c73e3253043}</object>
                          <context>ATM</context>
                          <name>CheckingAccount</name>
-                         <pos>x:-10;y:-25</pos>
-                         <rect>x:-60;y:-45;w:120;h:90</rect>
+                         <pos>x:-210;y:15</pos>
+                         <rect>x:-205;y:-50;w:410;h:100</rect>
                          <visual-role>0</visual-role>
                         </DObject>
                        </base-DObject>
@@ -99,9 +99,249 @@
                       </DInheritance>
                      </instance>
                     </item>
+                    <item>
+                     <instance type="DClass">
+                      <DClass>
+                       <base-DObject>
+                        <DObject>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{bc9e071b-daa3-465b-8b8b-0f377d2e7f0d}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{da26ae70-d826-45eb-baa9-ad93905225ab}</object>
+                         <name>LineOfCreditAccount</name>
+                         <pos>x:125;y:10</pos>
+                         <rect>x:-105;y:-45;w:210;h:90</rect>
+                         <visual-role>0</visual-role>
+                        </DObject>
+                       </base-DObject>
+                       <show-all-members>true</show-all-members>
+                      </DClass>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DInheritance">
+                      <DInheritance>
+                       <base-DRelation>
+                        <DRelation>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{d5ff81ab-2006-4950-9050-97a730606fe3}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{e86520d2-d079-42be-b44f-33478082bbf3}</object>
+                         <a>{bc9e071b-daa3-465b-8b8b-0f377d2e7f0d}</a>
+                         <b>{2f2394b6-cad2-44f7-93cd-fe94ae5c9403}</b>
+                        </DRelation>
+                       </base-DRelation>
+                      </DInheritance>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DClass">
+                      <DClass>
+                       <base-DObject>
+                        <DObject>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{41d6eb0d-57d4-454b-9dcc-2fdc9abe99d5}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{91145666-c7e3-4054-91d4-42d33d99662c}</object>
+                         <name>SavingsAccount</name>
+                         <pos>x:310;y:-15</pos>
+                         <rect>x:-50;y:-30;w:100;h:60</rect>
+                         <visual-role>0</visual-role>
+                        </DObject>
+                       </base-DObject>
+                      </DClass>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DInheritance">
+                      <DInheritance>
+                       <base-DRelation>
+                        <DRelation>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{2feb5f79-d96a-4d88-960e-453873128191}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{943b3f0a-6369-4cf1-8805-dfd1f88addd6}</object>
+                         <a>{41d6eb0d-57d4-454b-9dcc-2fdc9abe99d5}</a>
+                         <b>{2f2394b6-cad2-44f7-93cd-fe94ae5c9403}</b>
+                        </DRelation>
+                       </base-DRelation>
+                      </DInheritance>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DClass">
+                      <DClass>
+                       <base-DObject>
+                        <DObject>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{4f329230-4884-4efa-822c-62dd71c20f80}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{1d347575-5df2-4d23-a720-6cae79e08f4c}</object>
+                         <name>ClientBase</name>
+                         <pos>x:160;y:-395</pos>
+                         <rect>x:-215;y:-95;w:430;h:190</rect>
+                         <visual-role>0</visual-role>
+                        </DObject>
+                       </base-DObject>
+                       <show-all-members>true</show-all-members>
+                      </DClass>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DAssociation">
+                      <DAssociation>
+                       <base-DRelation>
+                        <DRelation>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{37476417-6a92-4d9c-9e2b-27c44d280dbe}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{d85835c1-b817-47e8-bc35-6fa04685b813}</object>
+                         <a>{2f2394b6-cad2-44f7-93cd-fe94ae5c9403}</a>
+                         <b>{4f329230-4884-4efa-822c-62dd71c20f80}</b>
+                        </DRelation>
+                       </base-DRelation>
+                       <a>
+                        <DAssociationEnd>
+                         <cradinality>*</cradinality>
+                         <navigable>true</navigable>
+                         <kind>1</kind>
+                        </DAssociationEnd>
+                       </a>
+                      </DAssociation>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DClass">
+                      <DClass>
+                       <base-DObject>
+                        <DObject>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{7d02443b-dcc1-4f6e-a02d-abd3fcd2679b}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{05a6db3c-4134-42c3-b39e-244210b44218}</object>
+                         <name>TheWindow</name>
+                         <pos>x:-185;y:-395</pos>
+                         <rect>x:-40;y:-30;w:80;h:60</rect>
+                         <visual-role>0</visual-role>
+                        </DObject>
+                       </base-DObject>
+                      </DClass>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DAssociation">
+                      <DAssociation>
+                       <base-DRelation>
+                        <DRelation>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{7b639ff6-a9d8-4d77-a1ab-7335e1ff000c}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{f3adf3b6-d684-4237-85ba-30611eb1919a}</object>
+                         <a>{7d02443b-dcc1-4f6e-a02d-abd3fcd2679b}</a>
+                         <b>{4f329230-4884-4efa-822c-62dd71c20f80}</b>
+                        </DRelation>
+                       </base-DRelation>
+                       <a>
+                        <DAssociationEnd>
+                         <cradinality>1</cradinality>
+                         <navigable>true</navigable>
+                         <kind>2</kind>
+                        </DAssociationEnd>
+                       </a>
+                      </DAssociation>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DAssociation">
+                      <DAssociation>
+                       <base-DRelation>
+                        <DRelation>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{914262b9-491f-4fd0-a62e-78fcce6361b1}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{5f7e2441-16bc-41c4-9a58-94df0d0ec58d}</object>
+                         <a>{7d02443b-dcc1-4f6e-a02d-abd3fcd2679b}</a>
+                         <b>{2f2394b6-cad2-44f7-93cd-fe94ae5c9403}</b>
+                        </DRelation>
+                       </base-DRelation>
+                       <a>
+                        <DAssociationEnd>
+                         <cradinality>1</cradinality>
+                         <navigable>true</navigable>
+                         <kind>2</kind>
+                        </DAssociationEnd>
+                       </a>
+                      </DAssociation>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DClass">
+                      <DClass>
+                       <base-DObject>
+                        <DObject>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{a5416c5b-a08c-45a6-a117-62603378db98}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{9ae3c2e3-6dc0-4d53-aeff-4ae5412cfebd}</object>
+                         <context>ATM</context>
+                         <name>MailSender</name>
+                         <pos>x:-205;y:-180</pos>
+                         <rect>x:-235;y:-45;w:470;h:90</rect>
+                         <visual-role>0</visual-role>
+                        </DObject>
+                       </base-DObject>
+                       <show-all-members>true</show-all-members>
+                      </DClass>
+                     </instance>
+                    </item>
+                    <item>
+                     <instance type="DAssociation">
+                      <DAssociation>
+                       <base-DRelation>
+                        <DRelation>
+                         <base-DElement>
+                          <DElement>
+                           <uid>{460162cb-a60d-4a95-949e-8219a772d0c4}</uid>
+                          </DElement>
+                         </base-DElement>
+                         <object>{966065d8-3e08-49d3-9d08-8e24e2239920}</object>
+                         <a>{7d02443b-dcc1-4f6e-a02d-abd3fcd2679b}</a>
+                         <b>{a5416c5b-a08c-45a6-a117-62603378db98}</b>
+                        </DRelation>
+                       </base-DRelation>
+                       <a>
+                        <DAssociationEnd>
+                         <cradinality>1</cradinality>
+                         <navigable>true</navigable>
+                         <kind>2</kind>
+                        </DAssociationEnd>
+                       </a>
+                      </DAssociation>
+                     </instance>
+                    </item>
                    </qlist>
                   </elements>
-                  <last-modified>1667855250889</last-modified>
+                  <last-modified>1671106523892</last-modified>
                   <toolbarid>Classes</toolbarid>
                  </MDiagram>
                 </base-MDiagram>
@@ -144,30 +384,134 @@
                               </MElement>
                              </base-MElement>
                              <name>Account</name>
+                             <relations>
+                              <handles>
+                               <handles>
+                                <qlist>
+                                 <item>
+                                  <handle>
+                                   <uid>{ad72a584-94e8-445e-8554-c1a126c41d6e}</uid>
+                                   <target>
+                                    <instance type="MAssociation">
+                                     <MAssociation>
+                                      <base-MRelation>
+                                       <MRelation>
+                                        <base-MElement>
+                                         <MElement>
+                                          <uid>{ad72a584-94e8-445e-8554-c1a126c41d6e}</uid>
+                                         </MElement>
+                                        </base-MElement>
+                                        <a>{ee62190d-d986-4ca2-b28c-0b5db1ae6272}</a>
+                                        <b>{1d347575-5df2-4d23-a720-6cae79e08f4c}</b>
+                                       </MRelation>
+                                      </base-MRelation>
+                                      <a>
+                                       <MAssociationEnd>
+                                        <cardinality>*</cardinality>
+                                        <navigable>true</navigable>
+                                        <kind>1</kind>
+                                       </MAssociationEnd>
+                                      </a>
+                                     </MAssociation>
+                                    </instance>
+                                   </target>
+                                  </handle>
+                                 </item>
+                                 <item>
+                                  <handle>
+                                   <uid>{d85835c1-b817-47e8-bc35-6fa04685b813}</uid>
+                                   <target>
+                                    <instance type="MAssociation">
+                                     <MAssociation>
+                                      <base-MRelation>
+                                       <MRelation>
+                                        <base-MElement>
+                                         <MElement>
+                                          <uid>{d85835c1-b817-47e8-bc35-6fa04685b813}</uid>
+                                         </MElement>
+                                        </base-MElement>
+                                        <a>{ee62190d-d986-4ca2-b28c-0b5db1ae6272}</a>
+                                        <b>{1d347575-5df2-4d23-a720-6cae79e08f4c}</b>
+                                       </MRelation>
+                                      </base-MRelation>
+                                      <a>
+                                       <MAssociationEnd>
+                                        <cardinality>*</cardinality>
+                                        <navigable>true</navigable>
+                                        <kind>1</kind>
+                                       </MAssociationEnd>
+                                      </a>
+                                     </MAssociation>
+                                    </instance>
+                                   </target>
+                                  </handle>
+                                 </item>
+                                </qlist>
+                               </handles>
+                              </handles>
+                             </relations>
                             </MObject>
                            </base-MObject>
                            <members>
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{fab8d1f4-fcb9-4a8e-9e21-e439c7f903c8}</uid>
+                               <uid>{5b97916c-5a9d-49a8-b5fa-30e5d3130076}</uid>
                                <type>2</type>
-                               <declaration>void obtainCash(double)</declaration>
+                               <declaration>void withdraw(double)</declaration>
                               </MClassMember>
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{bcc0372d-e94b-40e4-b82d-b44ab0fa862d}</uid>
+                               <uid>{f419af66-7398-4b2b-8e2e-d2ef29947d5d}</uid>
                                <type>2</type>
-                               <declaration>void putCash(double)</declaration>
+                               <declaration>void deposit(double)</declaration>
                               </MClassMember>
                              </item>
                              <item>
                               <MClassMember>
-                               <uid>{a339ffdd-f52c-421e-89b2-ea5e9cc468d3}</uid>
+                               <uid>{72d3070e-39a8-4828-8ed8-c51fe74723a3}</uid>
+                               <type>2</type>
+                               <declaration>void transfer(const QString&amp; number, double sum)</declaration>
+                              </MClassMember>
+                             </item>
+                             <item>
+                              <MClassMember>
+                               <uid>{5b954d12-ed7c-4e93-94f3-69f4bede5708}</uid>
                                <type>2</type>
                                <properties>4</properties>
                                <declaration>double balance()</declaration>
+                              </MClassMember>
+                             </item>
+                             <item>
+                              <MClassMember>
+                               <uid>{12f8da03-96e2-4d52-9d00-f8df0429e4c4}</uid>
+                               <type>2</type>
+                               <properties>4</properties>
+                               <declaration>const QString&amp; number()</declaration>
+                              </MClassMember>
+                             </item>
+                             <item>
+                              <MClassMember>
+                               <uid>{a1310e01-e167-4eb4-a004-565141e5b487}</uid>
+                               <type>2</type>
+                               <properties>4</properties>
+                               <declaration>const QString&amp; pincode()</declaration>
+                              </MClassMember>
+                             </item>
+                             <item>
+                              <MClassMember>
+                               <uid>{b00f7242-c68c-4ad3-9d9d-07cb8a5492c0}</uid>
+                               <type>2</type>
+                               <declaration>void setPincode(const QString&amp;)</declaration>
+                              </MClassMember>
+                             </item>
+                             <item>
+                              <MClassMember>
+                               <uid>{a0c69893-bbd8-4c1b-aba7-99d193384791}</uid>
+                               <type>2</type>
+                               <properties>4</properties>
+                               <declaration>const QString&amp; email()</declaration>
                               </MClassMember>
                              </item>
                             </qlist>
@@ -228,14 +572,76 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{83b968a4-e365-4bb2-b079-5f1fb1e2a764}</uid>
+                               <uid>{462f7699-52f0-4b18-8001-323db546192a}</uid>
                                <type>2</type>
                                <declaration>double maxBalance()</declaration>
+                              </MClassMember>
+                             </item>
+                             <item>
+                              <MClassMember>
+                               <uid>{9ca8f04d-6892-45e1-8213-6b6cefce20b1}</uid>
+                               <type>2</type>
+                               <declaration>void setMaxBalance(double newMaxBalance, const QString&amp; excessReceiver=&quot;&quot;)</declaration>
                               </MClassMember>
                              </item>
                             </qlist>
                            </members>
                           </MClass>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                      <item>
+                       <handle>
+                        <uid>{9ae3c2e3-6dc0-4d53-aeff-4ae5412cfebd}</uid>
+                        <target>
+                         <instance type="MClass">
+                          <MClass>
+                           <base-MObject>
+                            <MObject>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{9ae3c2e3-6dc0-4d53-aeff-4ae5412cfebd}</uid>
+                               <flags>1</flags>
+                              </MElement>
+                             </base-MElement>
+                             <name>MailSender</name>
+                            </MObject>
+                           </base-MObject>
+                           <members>
+                            <qlist>
+                             <item>
+                              <MClassMember>
+                               <uid>{4e487246-9760-4f94-8348-4eab59befd14}</uid>
+                               <type>2</type>
+                               <declaration>bool sendMail(QString receiverAddress, QString receiverName, QString subject, QString body)</declaration>
+                              </MClassMember>
+                             </item>
+                            </qlist>
+                           </members>
+                          </MClass>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                      <item>
+                       <handle>
+                        <uid>{037ebe58-91e9-430d-b729-339a47f4afed}</uid>
+                        <target>
+                         <instance type="MComponent">
+                          <MComponent>
+                           <base-MObject>
+                            <MObject>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{037ebe58-91e9-430d-b729-339a47f4afed}</uid>
+                               <flags>1</flags>
+                              </MElement>
+                             </base-MElement>
+                             <name>Mailsender</name>
+                            </MObject>
+                           </base-MObject>
+                          </MComponent>
                          </instance>
                         </target>
                        </handle>
@@ -247,6 +653,411 @@
                  </MObject>
                 </base-MObject>
                </MPackage>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{da26ae70-d826-45eb-baa9-ad93905225ab}</uid>
+             <target>
+              <instance type="MClass">
+               <MClass>
+                <base-MObject>
+                 <MObject>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{da26ae70-d826-45eb-baa9-ad93905225ab}</uid>
+                   </MElement>
+                  </base-MElement>
+                  <name>LineOfCreditAccount</name>
+                  <relations>
+                   <handles>
+                    <handles>
+                     <qlist>
+                      <item>
+                       <handle>
+                        <uid>{e86520d2-d079-42be-b44f-33478082bbf3}</uid>
+                        <target>
+                         <instance type="MInheritance">
+                          <MInheritance>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{e86520d2-d079-42be-b44f-33478082bbf3}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <a>{da26ae70-d826-45eb-baa9-ad93905225ab}</a>
+                             <b>{ee62190d-d986-4ca2-b28c-0b5db1ae6272}</b>
+                            </MRelation>
+                           </base-MRelation>
+                          </MInheritance>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                     </qlist>
+                    </handles>
+                   </handles>
+                  </relations>
+                 </MObject>
+                </base-MObject>
+                <members>
+                 <qlist>
+                  <item>
+                   <MClassMember>
+                    <uid>{a24bf4a6-a198-4b75-b2b9-8d15d23b3ea4}</uid>
+                    <type>2</type>
+                    <properties>4</properties>
+                    <declaration>double minBalance()</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{804d026c-bd5c-4e06-8df6-b65e9b2625e2}</uid>
+                    <type>2</type>
+                    <declaration>void setBackup(const QString&amp; backup)</declaration>
+                   </MClassMember>
+                  </item>
+                 </qlist>
+                </members>
+               </MClass>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{91145666-c7e3-4054-91d4-42d33d99662c}</uid>
+             <target>
+              <instance type="MClass">
+               <MClass>
+                <base-MObject>
+                 <MObject>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{91145666-c7e3-4054-91d4-42d33d99662c}</uid>
+                   </MElement>
+                  </base-MElement>
+                  <name>SavingsAccount</name>
+                  <relations>
+                   <handles>
+                    <handles>
+                     <qlist>
+                      <item>
+                       <handle>
+                        <uid>{943b3f0a-6369-4cf1-8805-dfd1f88addd6}</uid>
+                        <target>
+                         <instance type="MInheritance">
+                          <MInheritance>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{943b3f0a-6369-4cf1-8805-dfd1f88addd6}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <a>{91145666-c7e3-4054-91d4-42d33d99662c}</a>
+                             <b>{ee62190d-d986-4ca2-b28c-0b5db1ae6272}</b>
+                            </MRelation>
+                           </base-MRelation>
+                          </MInheritance>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                     </qlist>
+                    </handles>
+                   </handles>
+                  </relations>
+                 </MObject>
+                </base-MObject>
+               </MClass>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{1d347575-5df2-4d23-a720-6cae79e08f4c}</uid>
+             <target>
+              <instance type="MClass">
+               <MClass>
+                <base-MObject>
+                 <MObject>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{1d347575-5df2-4d23-a720-6cae79e08f4c}</uid>
+                   </MElement>
+                  </base-MElement>
+                  <name>ClientBase</name>
+                  <relations>
+                   <handles>
+                    <handles>
+                     <qlist>
+                      <item>
+                       <handle>
+                        <uid>{770a8cfc-2c74-4ee2-84d0-e63859a0bbbc}</uid>
+                        <target>
+                         <instance type="MDependency">
+                          <MDependency>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{770a8cfc-2c74-4ee2-84d0-e63859a0bbbc}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <a>{1d347575-5df2-4d23-a720-6cae79e08f4c}</a>
+                             <b>{ee62190d-d986-4ca2-b28c-0b5db1ae6272}</b>
+                            </MRelation>
+                           </base-MRelation>
+                          </MDependency>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                      <item>
+                       <handle>
+                        <uid>{82ea9147-c560-4a9d-a3b9-2104f2972764}</uid>
+                        <target>
+                         <instance type="MAssociation">
+                          <MAssociation>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{82ea9147-c560-4a9d-a3b9-2104f2972764}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <a>{1d347575-5df2-4d23-a720-6cae79e08f4c}</a>
+                             <b>{05a6db3c-4134-42c3-b39e-244210b44218}</b>
+                            </MRelation>
+                           </base-MRelation>
+                           <a>
+                            <MAssociationEnd>
+                             <cardinality>1</cardinality>
+                             <navigable>true</navigable>
+                             <kind>2</kind>
+                            </MAssociationEnd>
+                           </a>
+                          </MAssociation>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                     </qlist>
+                    </handles>
+                   </handles>
+                  </relations>
+                 </MObject>
+                </base-MObject>
+                <members>
+                 <qlist>
+                  <item>
+                   <MClassMember>
+                    <uid>{ba6ec9c4-f171-460f-a6d4-5add99489a85}</uid>
+                    <type>2</type>
+                    <declaration>Account* getAccount(const QString&amp; number)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{76f2d170-06a5-4e8a-9004-05259135fc77}</uid>
+                    <type>2</type>
+                    <declaration>bool isCheckingAcc(const QString&amp; number)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{ea860154-951c-40d0-a768-3e7b7de28927}</uid>
+                    <type>2</type>
+                    <declaration>bool isSavingsAcc(const QString&amp; number)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{03bc60bc-b1a7-4346-9d68-3eed4003fd60}</uid>
+                    <type>2</type>
+                    <declaration>bool isLineOfCreditAcc(const QString&amp; number)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{99e0c5e8-cebf-457d-9594-4be731a95b94}</uid>
+                    <type>2</type>
+                    <declaration>void updateBalance(const QString&amp; number, double val)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{288b7276-529f-455a-b846-23e7d0cac077}</uid>
+                    <type>2</type>
+                    <declaration>void updateMaxBalance(const QString&amp; number, double balance)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{38358c08-ff42-46ed-9d99-a0943f248f69}</uid>
+                    <type>2</type>
+                    <declaration>void updateExcessReceiver(const QString&amp; number, const QString&amp; excessReceiver)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{f0527b34-19b4-47d6-aaa7-2d33c2755085}</uid>
+                    <type>2</type>
+                    <declaration>void updateMinBalance(const QString&amp; number, double val)</declaration>
+                   </MClassMember>
+                  </item>
+                  <item>
+                   <MClassMember>
+                    <uid>{69cc7a34-5893-4a40-af70-9b19faeb3a6a}</uid>
+                    <type>2</type>
+                    <declaration>void updateBackup(const QString&amp; number, const QString&amp; backup)</declaration>
+                   </MClassMember>
+                  </item>
+                 </qlist>
+                </members>
+               </MClass>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{05a6db3c-4134-42c3-b39e-244210b44218}</uid>
+             <target>
+              <instance type="MClass">
+               <MClass>
+                <base-MObject>
+                 <MObject>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{05a6db3c-4134-42c3-b39e-244210b44218}</uid>
+                   </MElement>
+                  </base-MElement>
+                  <name>TheWindow</name>
+                  <relations>
+                   <handles>
+                    <handles>
+                     <qlist>
+                      <item>
+                       <handle>
+                        <uid>{f3adf3b6-d684-4237-85ba-30611eb1919a}</uid>
+                        <target>
+                         <instance type="MAssociation">
+                          <MAssociation>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{f3adf3b6-d684-4237-85ba-30611eb1919a}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <a>{05a6db3c-4134-42c3-b39e-244210b44218}</a>
+                             <b>{1d347575-5df2-4d23-a720-6cae79e08f4c}</b>
+                            </MRelation>
+                           </base-MRelation>
+                           <a>
+                            <MAssociationEnd>
+                             <cardinality>1</cardinality>
+                             <navigable>true</navigable>
+                             <kind>2</kind>
+                            </MAssociationEnd>
+                           </a>
+                          </MAssociation>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                      <item>
+                       <handle>
+                        <uid>{5f7e2441-16bc-41c4-9a58-94df0d0ec58d}</uid>
+                        <target>
+                         <instance type="MAssociation">
+                          <MAssociation>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{5f7e2441-16bc-41c4-9a58-94df0d0ec58d}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <a>{05a6db3c-4134-42c3-b39e-244210b44218}</a>
+                             <b>{ee62190d-d986-4ca2-b28c-0b5db1ae6272}</b>
+                            </MRelation>
+                           </base-MRelation>
+                           <a>
+                            <MAssociationEnd>
+                             <cardinality>1</cardinality>
+                             <navigable>true</navigable>
+                             <kind>2</kind>
+                            </MAssociationEnd>
+                           </a>
+                          </MAssociation>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                      <item>
+                       <handle>
+                        <uid>{966065d8-3e08-49d3-9d08-8e24e2239920}</uid>
+                        <target>
+                         <instance type="MAssociation">
+                          <MAssociation>
+                           <base-MRelation>
+                            <MRelation>
+                             <base-MElement>
+                              <MElement>
+                               <uid>{966065d8-3e08-49d3-9d08-8e24e2239920}</uid>
+                              </MElement>
+                             </base-MElement>
+                             <a>{05a6db3c-4134-42c3-b39e-244210b44218}</a>
+                             <b>{9ae3c2e3-6dc0-4d53-aeff-4ae5412cfebd}</b>
+                            </MRelation>
+                           </base-MRelation>
+                           <a>
+                            <MAssociationEnd>
+                             <cardinality>1</cardinality>
+                             <navigable>true</navigable>
+                             <kind>2</kind>
+                            </MAssociationEnd>
+                           </a>
+                          </MAssociation>
+                         </instance>
+                        </target>
+                       </handle>
+                      </item>
+                     </qlist>
+                    </handles>
+                   </handles>
+                  </relations>
+                 </MObject>
+                </base-MObject>
+               </MClass>
+              </instance>
+             </target>
+            </handle>
+           </item>
+           <item>
+            <handle>
+             <uid>{05d57229-c8ef-4776-874b-de57d7f0bcdc}</uid>
+             <target>
+              <instance type="MClass">
+               <MClass>
+                <base-MObject>
+                 <MObject>
+                  <base-MElement>
+                   <MElement>
+                    <uid>{05d57229-c8ef-4776-874b-de57d7f0bcdc}</uid>
+                   </MElement>
+                  </base-MElement>
+                  <name>MailSender</name>
+                 </MObject>
+                </base-MObject>
+               </MClass>
               </instance>
              </target>
             </handle>
