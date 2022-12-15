@@ -12,6 +12,8 @@ public:
                         ClientBase* db, double initBalance, double minBalance=0,
                         const QString& backup="");
     ~LineOfCreditAccount() {}
+    // since minimal balance is agreed with the bank when issued, a client cannot change it
+    // through ATM interface
     double minBalance() const;
     void setBackup(const QString& backup);
 private:

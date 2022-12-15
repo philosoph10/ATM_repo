@@ -2,9 +2,6 @@
 #include <QDir>
 #include <QDebug>
 #include <QApplication>
-#include "SmtpMime"
-//#include "clientbase.h"
-//#include "LineOfCreditAccount.h"
 
 int main(int argc, char *argv[])
 {

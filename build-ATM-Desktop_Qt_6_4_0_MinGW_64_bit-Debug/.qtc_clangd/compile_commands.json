@@ -27,20 +27,20 @@
         "-DQT_TESTLIB_LIB",
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
-        "-DQT_TESTCASE_BUILDDIR=\"C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
+        "-DQT_TESTCASE_BUILDDIR=\"C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
         "-DQ_CREATOR_RUN",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtTest",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -59,10 +59,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM\\clientbase.cpp"
+        "C:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM\\clientbase.cpp"
     ],
-    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/ATM/clientbase.cpp"
+    "directory": "C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/yarem/GitHubProjects/ATM_repo/ATM/clientbase.cpp"
 },
 {
     "arguments": [
@@ -92,20 +92,20 @@
         "-DQT_TESTLIB_LIB",
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
-        "-DQT_TESTCASE_BUILDDIR=\"C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
+        "-DQT_TESTCASE_BUILDDIR=\"C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
         "-DQ_CREATOR_RUN",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtTest",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -124,10 +124,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM\\mailsender.cpp"
+        "C:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM\\mailsender.cpp"
     ],
-    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/ATM/mailsender.cpp"
+    "directory": "C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/yarem/GitHubProjects/ATM_repo/ATM/mailsender.cpp"
 },
 {
     "arguments": [
@@ -157,20 +157,20 @@
         "-DQT_TESTLIB_LIB",
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
-        "-DQT_TESTCASE_BUILDDIR=\"C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
+        "-DQT_TESTCASE_BUILDDIR=\"C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
         "-DQ_CREATOR_RUN",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtTest",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -189,10 +189,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM\\main.cpp"
+        "C:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM\\main.cpp"
     ],
-    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/ATM/main.cpp"
+    "directory": "C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/yarem/GitHubProjects/ATM_repo/ATM/main.cpp"
 },
 {
     "arguments": [
@@ -222,20 +222,20 @@
         "-DQT_TESTLIB_LIB",
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
-        "-DQT_TESTCASE_BUILDDIR=\"C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
+        "-DQT_TESTCASE_BUILDDIR=\"C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
         "-DQ_CREATOR_RUN",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtTest",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -254,10 +254,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM\\checkingaccount.cpp"
+        "C:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM\\checkingaccount.cpp"
     ],
-    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/ATM/checkingaccount.cpp"
+    "directory": "C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/yarem/GitHubProjects/ATM_repo/ATM/checkingaccount.cpp"
 },
 {
     "arguments": [
@@ -287,20 +287,20 @@
         "-DQT_TESTLIB_LIB",
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
-        "-DQT_TESTCASE_BUILDDIR=\"C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
+        "-DQT_TESTCASE_BUILDDIR=\"C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
         "-DQ_CREATOR_RUN",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtTest",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -319,10 +319,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM\\savingsaccount.cpp"
+        "C:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM\\savingsaccount.cpp"
     ],
-    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/ATM/savingsaccount.cpp"
+    "directory": "C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/yarem/GitHubProjects/ATM_repo/ATM/savingsaccount.cpp"
 },
 {
     "arguments": [
@@ -352,20 +352,20 @@
         "-DQT_TESTLIB_LIB",
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
-        "-DQT_TESTCASE_BUILDDIR=\"C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
+        "-DQT_TESTCASE_BUILDDIR=\"C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
         "-DQ_CREATOR_RUN",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtTest",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -384,10 +384,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM\\lineofcreditaccount.cpp"
+        "C:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM\\lineofcreditaccount.cpp"
     ],
-    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/ATM/lineofcreditaccount.cpp"
+    "directory": "C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/yarem/GitHubProjects/ATM_repo/ATM/lineofcreditaccount.cpp"
 },
 {
     "arguments": [
@@ -417,20 +417,20 @@
         "-DQT_TESTLIB_LIB",
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
-        "-DQT_TESTCASE_BUILDDIR=\"C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
+        "-DQT_TESTCASE_BUILDDIR=\"C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
         "-DQ_CREATOR_RUN",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtTest",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -449,10 +449,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM\\account.cpp"
+        "C:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM\\account.cpp"
     ],
-    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/ATM/account.cpp"
+    "directory": "C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/yarem/GitHubProjects/ATM_repo/ATM/account.cpp"
 },
 {
     "arguments": [
@@ -482,20 +482,20 @@
         "-DQT_TESTLIB_LIB",
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
-        "-DQT_TESTCASE_BUILDDIR=\"C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
+        "-DQT_TESTCASE_BUILDDIR=\"C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
         "-DQ_CREATOR_RUN",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtTest",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -514,10 +514,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM\\thewindow.cpp"
+        "C:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM\\thewindow.cpp"
     ],
-    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/ATM/thewindow.cpp"
+    "directory": "C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/yarem/GitHubProjects/ATM_repo/ATM/thewindow.cpp"
 },
 {
     "arguments": [
@@ -547,20 +547,20 @@
         "-DQT_TESTLIB_LIB",
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
-        "-DQT_TESTCASE_BUILDDIR=\"C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
+        "-DQT_TESTCASE_BUILDDIR=\"C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
         "-DQ_CREATOR_RUN",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtTest",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -579,10 +579,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM\\Account.h"
+        "C:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM\\Account.h"
     ],
-    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/ATM/Account.h"
+    "directory": "C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/yarem/GitHubProjects/ATM_repo/ATM/Account.h"
 },
 {
     "arguments": [
@@ -612,20 +612,20 @@
         "-DQT_TESTLIB_LIB",
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
-        "-DQT_TESTCASE_BUILDDIR=\"C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
+        "-DQT_TESTCASE_BUILDDIR=\"C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
         "-DQ_CREATOR_RUN",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtTest",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -644,10 +644,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM\\CheckingAccount.h"
+        "C:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM\\CheckingAccount.h"
     ],
-    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/ATM/CheckingAccount.h"
+    "directory": "C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/yarem/GitHubProjects/ATM_repo/ATM/CheckingAccount.h"
 },
 {
     "arguments": [
@@ -677,20 +677,20 @@
         "-DQT_TESTLIB_LIB",
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
-        "-DQT_TESTCASE_BUILDDIR=\"C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
+        "-DQT_TESTCASE_BUILDDIR=\"C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
         "-DQ_CREATOR_RUN",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtTest",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -709,10 +709,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM\\LineOfCreditAccount.h"
+        "C:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM\\LineOfCreditAccount.h"
     ],
-    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/ATM/LineOfCreditAccount.h"
+    "directory": "C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/yarem/GitHubProjects/ATM_repo/ATM/LineOfCreditAccount.h"
 },
 {
     "arguments": [
@@ -742,20 +742,20 @@
         "-DQT_TESTLIB_LIB",
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
-        "-DQT_TESTCASE_BUILDDIR=\"C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
+        "-DQT_TESTCASE_BUILDDIR=\"C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
         "-DQ_CREATOR_RUN",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtTest",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -774,10 +774,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM\\SavingsAccount.h"
+        "C:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM\\SavingsAccount.h"
     ],
-    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/ATM/SavingsAccount.h"
+    "directory": "C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/yarem/GitHubProjects/ATM_repo/ATM/SavingsAccount.h"
 },
 {
     "arguments": [
@@ -807,20 +807,20 @@
         "-DQT_TESTLIB_LIB",
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
-        "-DQT_TESTCASE_BUILDDIR=\"C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
+        "-DQT_TESTCASE_BUILDDIR=\"C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
         "-DQ_CREATOR_RUN",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtTest",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -839,10 +839,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM\\clientbase.h"
+        "C:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM\\clientbase.h"
     ],
-    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/ATM/clientbase.h"
+    "directory": "C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/yarem/GitHubProjects/ATM_repo/ATM/clientbase.h"
 },
 {
     "arguments": [
@@ -872,20 +872,20 @@
         "-DQT_TESTLIB_LIB",
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
-        "-DQT_TESTCASE_BUILDDIR=\"C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
+        "-DQT_TESTCASE_BUILDDIR=\"C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
         "-DQ_CREATOR_RUN",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtTest",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -904,10 +904,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM\\mailsender.h"
+        "C:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM\\mailsender.h"
     ],
-    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/ATM/mailsender.h"
+    "directory": "C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/yarem/GitHubProjects/ATM_repo/ATM/mailsender.h"
 },
 {
     "arguments": [
@@ -937,20 +937,20 @@
         "-DQT_TESTLIB_LIB",
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
-        "-DQT_TESTCASE_BUILDDIR=\"C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
+        "-DQT_TESTCASE_BUILDDIR=\"C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
         "-DQ_CREATOR_RUN",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtTest",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -969,10 +969,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM\\thewindow.h"
+        "C:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM\\thewindow.h"
     ],
-    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/ATM/thewindow.h"
+    "directory": "C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/yarem/GitHubProjects/ATM_repo/ATM/thewindow.h"
 },
 {
     "arguments": [
@@ -1002,20 +1002,20 @@
         "-DQT_TESTLIB_LIB",
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
-        "-DQT_TESTCASE_BUILDDIR=\"C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
+        "-DQT_TESTCASE_BUILDDIR=\"C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\"",
         "-DQ_CREATOR_RUN",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\ATM",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\ATM",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtWidgets",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtGui",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtTest",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
-        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\debug",
+        "-IC:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1034,9 +1034,9 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\ui_thewindow.h"
+        "C:\\Users\\yarem\\GitHubProjects\\ATM_repo\\build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\\ui_thewindow.h"
     ],
-    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/ui_thewindow.h"
+    "directory": "C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/.qtc_clangd",
+    "file": "C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/ui_thewindow.h"
 }
 ]

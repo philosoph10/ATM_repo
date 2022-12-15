@@ -8,6 +8,7 @@ class ClientBase;
 // every account has a number, a pin-code for access,
 // an associated email address (can be used to retrieve forgotten pin-code),
 // and a balance (money)
+// also every bank account belongs to some database
 class Account
 {
 public:

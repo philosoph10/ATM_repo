@@ -25,6 +25,7 @@ public:
     void updateExcessReceiver(const QString& number, const QString& excessReceiver);
     void updateMinBalance(const QString& number, double val);
     void updateBackup(const QString& number, const QString& backup);
+    void updatePincode(const QString& number, const QString& pincode);
 
 private:
     void update();
