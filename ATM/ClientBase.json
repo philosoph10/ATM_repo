@@ -10,7 +10,7 @@
             "Type": "Checking"
         },
         {
-            "Balance": 7000,
+            "Balance": 6100,
             "E-mail": "yur-liubomysl.dekhtiar@ukma.edu.ua",
             "Number": "0987654321123456",
             "Pin-code": "0093",
@@ -18,7 +18,7 @@
         },
         {
             "Back-up": "0987654321123456",
-            "Balance": 3000,
+            "Balance": 2000,
             "E-mail": "0670009988",
             "Min-balance": 2000,
             "Number": "1234561234567890",
@@ -26,7 +26,7 @@
             "Type": "Line of Credit"
         },
         {
-            "Balance": 17000,
+            "Balance": 20000,
             "E-mail": "boublik@ukma.edu.ua",
             "Excess-receiver": "1111222233334444",
             "Max-balance": 20000,
@@ -35,10 +35,10 @@
             "Type": "Checking"
         },
         {
-            "Balance": 1000,
+            "Balance": 1899,
             "E-mail": "boublik@ukma.edu.ua",
             "Number": "1111222233334444",
-            "Pin-code": "1234",
+            "Pin-code": "0414",
             "Type": "Savings"
         }
     ]
