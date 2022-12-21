@@ -9,9 +9,11 @@ TheWindow::TheWindow(QWidget *parent, QDir databaseDir)
     , ui(new Ui::TheWindow)
     , _workingAccount(nullptr)
     , _db(new ClientBase(databaseDir.absolutePath() + "/ClientBase.json"))
-    ,  _sender(new MailSender("atm.moop@gmail.com", "vnmqmwwkeudmxrha"))
+    , _sender(new MailSender("atm.moop@gmail.com", "vnmqmwwkeudmxrha"))
+    , _recoveryCode(nullptr)
 {
     ui->setupUi(this);
+    this->setFixedSize(QSize(401, 281));
     ui->stackedWidget->setStyleSheet("background-color: white");
     ui->stackedWidget->setCurrentIndex(0);
     setUpRegisterScreen();
@@ -37,8 +39,8 @@ TheWindow::~TheWindow()
     {
         delete _workingAccount;
     }
-    delete _db;
-    delete _sender;
+    if (_db != nullptr) delete _db;
+    if(_sender != nullptr) delete _sender;
     if(_recoveryCode != nullptr)
     {
         delete _recoveryCode;
@@ -220,6 +222,7 @@ void TheWindow::transferMoney()
     QString receiver = ui->transferCardLineEdit->text();
     try{
         _workingAccount->transfer(receiver, sum);
+        _workingAccount = _db->getAccount(_workingAccount->number());
     }
     catch(const Account::BadAccount& err) {
         QMessageBox messageBox;
@@ -342,6 +345,7 @@ void TheWindow::cancelEnteringMail()
 void TheWindow::cancelCodeVerification()
 {
     ui->stackedWidget->setCurrentIndex(0);
+    if(_recoveryCode != nullptr) delete _recoveryCode;
     _recoveryCode = nullptr;
     ui->recoveryCodeLineEdit->clear();
     ui->codeErrorLabel->hide();
@@ -350,6 +354,7 @@ void TheWindow::cancelCodeVerification()
 void TheWindow::cancelPinReset()
 {
     ui->stackedWidget->setCurrentIndex(0);
+    if(_recoveryCode != nullptr) delete _recoveryCode;
     _recoveryCode = nullptr;
     ui->newPinLineEdit->clear();
     ui->repeatPinLineEdit->clear();
@@ -417,6 +422,7 @@ void TheWindow::sendCode()
     QMessageBox messageBox;
     messageBox.information(0,"Important","A code was sent to your email.\nPlease go check your mailbox!");
     messageBox.setFixedSize(500,200);
+    if(_recoveryCode != nullptr) delete _recoveryCode;
     _recoveryCode = new QString(code);
 }
 

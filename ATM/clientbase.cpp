@@ -13,6 +13,7 @@ Account *ClientBase::getAccount(const QString &number)
     update();
     QJsonValue value = _kernel.value(QString("Accounts"));
     QJsonArray accounts = value.toArray();
+    qDebug() << accounts.size() << '\n';
     for (int i = 0; i < accounts.size(); ++i) {
         QJsonObject account = accounts[i].toObject();
         QString curNumber = account.value("Number").toString();

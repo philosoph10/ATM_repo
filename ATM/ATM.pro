@@ -59,3 +59,10 @@ else:unix: LIBS += -L$$PWD/../SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6
 
 INCLUDEPATH += $$PWD/../SmtpClient-for-Qt-2.0/src
 DEPENDPATH += $$PWD/../SmtpClient-for-Qt-2.0/src
+
+#win32:CONFIG(release, debug|release): LIBS += -L$$PWD/../SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/release/ -lSmtpMime2
+#else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/../SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/debug/ -lSmtpMime2
+#else:unix: LIBS += -L$$PWD/../SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/ -lSmtpMime2
+
+#INCLUDEPATH += $$PWD/../SmtpClient-for-Qt-2.0/src
+#DEPENDPATH += $$PWD/../SmtpClient-for-Qt-2.0/src

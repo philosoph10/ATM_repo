@@ -147,6 +147,11 @@ public:
         if (TheWindow->objectName().isEmpty())
             TheWindow->setObjectName("TheWindow");
         TheWindow->resize(400, 300);
+        QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(TheWindow->sizePolicy().hasHeightForWidth());
+        TheWindow->setSizePolicy(sizePolicy);
         centralwidget = new QWidget(TheWindow);
         centralwidget->setObjectName("centralwidget");
         stackedWidget = new QStackedWidget(centralwidget);

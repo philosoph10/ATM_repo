@@ -13,13 +13,13 @@ EQ            = =
 
 CC            = gcc
 CXX           = g++
-DEFINES       = -DUNICODE -D_UNICODE -DWIN32 -DMINGW_HAS_SECURE_API=1 -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_TESTLIB_LIB -DQT_CORE_LIB -DQT_NEEDS_QMAIN -DQT_TESTCASE_BUILDDIR="\"C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\""
+DEFINES       = -DUNICODE -D_UNICODE -DWIN32 -DMINGW_HAS_SECURE_API=1 -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_TESTLIB_LIB -DQT_CORE_LIB -DQT_NEEDS_QMAIN -DQT_TESTCASE_BUILDDIR="\"C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\""
 CFLAGS        = -fno-keep-inline-dllexport -g -Wall -Wextra -Wextra $(DEFINES)
 CXXFLAGS      = -fno-keep-inline-dllexport -g -std=gnu++1z -Wall -Wextra -Wextra -fexceptions -mthreads $(DEFINES)
 INCPATH       = -I../ATM -I. -I../SmtpClient-for-Qt-2.0/src -IC:/Qt/6.4.0/mingw_64/include -IC:/Qt/6.4.0/mingw_64/include/QtWidgets -IC:/Qt/6.4.0/mingw_64/include/QtGui -IC:/Qt/6.4.0/mingw_64/include/QtTest -IC:/Qt/6.4.0/mingw_64/include/QtCore -Idebug -I. -I/include -IC:/Qt/6.4.0/mingw_64/mkspecs/win32-g++ 
 LINKER      =        g++
 LFLAGS        =        -Wl,-subsystem,console -mthreads
-LIBS        =        -LC:\Users\yarem\GitHubProjects\ATM_repo\SmtpClient-for-Qt-2.0\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\debug -lSmtpMime2 C:\Qt\6.4.0\mingw_64\lib\libQt6Widgets.a C:\Qt\6.4.0\mingw_64\lib\libQt6Gui.a C:\Qt\6.4.0\mingw_64\lib\libQt6Test.a C:\Qt\6.4.0\mingw_64\lib\libQt6Core.a -lmingw32 C:\Qt\6.4.0\mingw_64\lib\libQt6EntryPoint.a -lshell32  
+LIBS        =        -L"C:\C++\QT\QT Widget Apps\ATM_Proj\ATM_repo\SmtpClient-for-Qt-2.0\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Debug\debug" -lSmtpMime2 C:\Qt\6.4.0\mingw_64\lib\libQt6Widgets.a C:\Qt\6.4.0\mingw_64\lib\libQt6Gui.a C:\Qt\6.4.0\mingw_64\lib\libQt6Test.a C:\Qt\6.4.0\mingw_64\lib\libQt6Core.a -lmingw32 C:\Qt\6.4.0\mingw_64\lib\libQt6EntryPoint.a -lshell32  
 QMAKE         = C:\Qt\6.4.0\mingw_64\bin\qmake.exe
 DEL_FILE      = del
 CHK_DIR_EXISTS= if not exist
@@ -355,7 +355,7 @@ debug/moc_thewindow.cpp: ../ATM/thewindow.h \
 		../SmtpClient-for-Qt-2.0/src/mimebytearrayattachment.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.4.0/mingw_64/bin/moc.exe
-	C:\Qt\6.4.0\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/yarem/GitHubProjects/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/debug/moc_predefs.h -IC:/Qt/6.4.0/mingw_64/mkspecs/win32-g++ -IC:/Users/yarem/GitHubProjects/ATM_repo/ATM -IC:/Users/yarem/GitHubProjects/ATM_repo/SmtpClient-for-Qt-2.0/src -IC:/Qt/6.4.0/mingw_64/include -IC:/Qt/6.4.0/mingw_64/include/QtWidgets -IC:/Qt/6.4.0/mingw_64/include/QtGui -IC:/Qt/6.4.0/mingw_64/include/QtTest -IC:/Qt/6.4.0/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\ATM\thewindow.h -o debug\moc_thewindow.cpp
+	C:\Qt\6.4.0\mingw_64\bin\moc.exe $(DEFINES) --include "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/build-ATM-Desktop_Qt_6_4_0_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.4.0/mingw_64/mkspecs/win32-g++ -I"C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/ATM" -I"C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src" -IC:/Qt/6.4.0/mingw_64/include -IC:/Qt/6.4.0/mingw_64/include/QtWidgets -IC:/Qt/6.4.0/mingw_64/include/QtGui -IC:/Qt/6.4.0/mingw_64/include/QtTest -IC:/Qt/6.4.0/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\ATM\thewindow.h -o debug\moc_thewindow.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:

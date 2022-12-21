@@ -96,8 +96,14 @@ void Account::doTransfer(const QString& number, double sum)
     {
         throw BadAccount("Attempt to transfer to a non-existing account at Account::doTransfer");
     }
+    if (number == _number)
+    {
+        return;
+    }
     withdraw(sum);
+    qDebug() << "Balance = " << _balance << '\n';
     to->deposit(sum);
+    qDebug() << "Balance = " << _balance << '\n';
 }
 
 Account::BadAccount::BadAccount(const QString& errorMessage) :

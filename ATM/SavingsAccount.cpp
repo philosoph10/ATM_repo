@@ -16,6 +16,7 @@ SavingsAccount::~SavingsAccount()
 void SavingsAccount::doWithdraw(double sum)
 {
     double total = sum * (1 + _COMMISSION);
+    total = std::floor(total * 100) / 100;
     if (total > _balance)
     {
         throw BadAccount("Not enough money on balance at SavingsAccount::doWithdraw");

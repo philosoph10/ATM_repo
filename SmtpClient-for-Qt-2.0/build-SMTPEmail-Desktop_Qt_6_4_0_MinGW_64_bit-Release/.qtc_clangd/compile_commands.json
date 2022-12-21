@@ -28,12 +28,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -52,10 +52,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\emailaddress.cpp"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\emailaddress.cpp"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/emailaddress.cpp"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/emailaddress.cpp"
 },
 {
     "arguments": [
@@ -86,12 +86,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -110,10 +110,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimeattachment.cpp"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimeattachment.cpp"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimeattachment.cpp"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimeattachment.cpp"
 },
 {
     "arguments": [
@@ -144,12 +144,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -168,10 +168,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimefile.cpp"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimefile.cpp"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimefile.cpp"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimefile.cpp"
 },
 {
     "arguments": [
@@ -202,12 +202,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -226,10 +226,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimehtml.cpp"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimehtml.cpp"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimehtml.cpp"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimehtml.cpp"
 },
 {
     "arguments": [
@@ -260,12 +260,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -284,10 +284,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimeinlinefile.cpp"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimeinlinefile.cpp"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimeinlinefile.cpp"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimeinlinefile.cpp"
 },
 {
     "arguments": [
@@ -318,12 +318,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -342,10 +342,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimemessage.cpp"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimemessage.cpp"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimemessage.cpp"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimemessage.cpp"
 },
 {
     "arguments": [
@@ -376,12 +376,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -400,10 +400,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimepart.cpp"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimepart.cpp"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimepart.cpp"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimepart.cpp"
 },
 {
     "arguments": [
@@ -434,12 +434,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -458,10 +458,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimetext.cpp"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimetext.cpp"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimetext.cpp"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimetext.cpp"
 },
 {
     "arguments": [
@@ -492,12 +492,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -516,10 +516,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\smtpclient.cpp"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\smtpclient.cpp"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/smtpclient.cpp"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/smtpclient.cpp"
 },
 {
     "arguments": [
@@ -550,12 +550,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -574,10 +574,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\quotedprintable.cpp"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\quotedprintable.cpp"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/quotedprintable.cpp"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/quotedprintable.cpp"
 },
 {
     "arguments": [
@@ -608,12 +608,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -632,10 +632,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimemultipart.cpp"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimemultipart.cpp"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimemultipart.cpp"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimemultipart.cpp"
 },
 {
     "arguments": [
@@ -666,12 +666,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -690,10 +690,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimecontentencoder.cpp"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimecontentencoder.cpp"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimecontentencoder.cpp"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimecontentencoder.cpp"
 },
 {
     "arguments": [
@@ -724,12 +724,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -748,10 +748,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimebase64encoder.cpp"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimebase64encoder.cpp"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimebase64encoder.cpp"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimebase64encoder.cpp"
 },
 {
     "arguments": [
@@ -782,12 +782,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -806,10 +806,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimeqpencoder.cpp"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimeqpencoder.cpp"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimeqpencoder.cpp"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimeqpencoder.cpp"
 },
 {
     "arguments": [
@@ -840,12 +840,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -864,10 +864,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimeqpformatter.cpp"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimeqpformatter.cpp"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimeqpformatter.cpp"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimeqpformatter.cpp"
 },
 {
     "arguments": [
@@ -898,12 +898,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -922,10 +922,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimebase64formatter.cpp"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimebase64formatter.cpp"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimebase64formatter.cpp"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimebase64formatter.cpp"
 },
 {
     "arguments": [
@@ -956,12 +956,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -980,10 +980,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimecontentformatter.cpp"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimecontentformatter.cpp"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimecontentformatter.cpp"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimecontentformatter.cpp"
 },
 {
     "arguments": [
@@ -1014,12 +1014,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1038,10 +1038,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\SmtpMime"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\SmtpMime"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/SmtpMime"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/SmtpMime"
 },
 {
     "arguments": [
@@ -1072,12 +1072,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1096,10 +1096,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\emailaddress.h"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\emailaddress.h"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/emailaddress.h"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/emailaddress.h"
 },
 {
     "arguments": [
@@ -1130,12 +1130,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1154,10 +1154,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimeattachment.h"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimeattachment.h"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimeattachment.h"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimeattachment.h"
 },
 {
     "arguments": [
@@ -1188,12 +1188,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1212,10 +1212,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimefile.h"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimefile.h"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimefile.h"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimefile.h"
 },
 {
     "arguments": [
@@ -1246,12 +1246,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1270,10 +1270,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimehtml.h"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimehtml.h"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimehtml.h"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimehtml.h"
 },
 {
     "arguments": [
@@ -1304,12 +1304,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1328,10 +1328,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimeinlinefile.h"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimeinlinefile.h"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimeinlinefile.h"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimeinlinefile.h"
 },
 {
     "arguments": [
@@ -1362,12 +1362,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1386,10 +1386,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimemessage.h"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimemessage.h"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimemessage.h"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimemessage.h"
 },
 {
     "arguments": [
@@ -1420,12 +1420,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1444,10 +1444,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimepart.h"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimepart.h"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimepart.h"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimepart.h"
 },
 {
     "arguments": [
@@ -1478,12 +1478,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1502,10 +1502,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimetext.h"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimetext.h"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimetext.h"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimetext.h"
 },
 {
     "arguments": [
@@ -1536,12 +1536,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1560,10 +1560,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\smtpclient.h"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\smtpclient.h"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/smtpclient.h"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/smtpclient.h"
 },
 {
     "arguments": [
@@ -1594,12 +1594,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1618,10 +1618,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\quotedprintable.h"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\quotedprintable.h"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/quotedprintable.h"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/quotedprintable.h"
 },
 {
     "arguments": [
@@ -1652,12 +1652,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1676,10 +1676,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimemultipart.h"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimemultipart.h"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimemultipart.h"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimemultipart.h"
 },
 {
     "arguments": [
@@ -1710,12 +1710,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1734,10 +1734,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\smtpmime_global.h"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\smtpmime_global.h"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/smtpmime_global.h"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/smtpmime_global.h"
 },
 {
     "arguments": [
@@ -1768,12 +1768,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1792,10 +1792,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimecontentencoder.h"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimecontentencoder.h"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimecontentencoder.h"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimecontentencoder.h"
 },
 {
     "arguments": [
@@ -1826,12 +1826,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1850,10 +1850,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimebase64encoder.h"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimebase64encoder.h"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimebase64encoder.h"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimebase64encoder.h"
 },
 {
     "arguments": [
@@ -1884,12 +1884,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1908,10 +1908,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimeqpencoder.h"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimeqpencoder.h"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimeqpencoder.h"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimeqpencoder.h"
 },
 {
     "arguments": [
@@ -1942,12 +1942,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -1966,10 +1966,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimeqpformatter.h"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimeqpformatter.h"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimeqpformatter.h"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimeqpformatter.h"
 },
 {
     "arguments": [
@@ -2000,12 +2000,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -2024,10 +2024,10 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimebase64formatter.h"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimebase64formatter.h"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimebase64formatter.h"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimebase64formatter.h"
 },
 {
     "arguments": [
@@ -2058,12 +2058,12 @@
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedMingwHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders",
         "-IC:\\Qt\\Tools\\QtCreator\\share\\qtcreator\\cplusplus\\wrappedQtHeaders\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtNetwork",
         "-IC:\\Qt\\6.4.0\\mingw_64\\include\\QtCore",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
-        "-IC:\\C++\\QT\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release\\release",
+        "-IC:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release",
         "-IC:\\Qt\\6.4.0\\mingw_64\\mkspecs\\win32-g++",
         "-isystem",
         "C:\\Qt\\Tools\\mingw1120_64\\lib\\gcc\\x86_64-w64-mingw32\\11.2.0\\include\\c++",
@@ -2082,9 +2082,9 @@
         "-ferror-limit=1000",
         "-x",
         "c++-header",
-        "C:\\C++\\QT\\SmtpClient-for-Qt-2.0\\src\\mimecontentformatter.h"
+        "C:\\C++\\QT\\QT Widget Apps\\ATM_Proj\\ATM_repo\\SmtpClient-for-Qt-2.0\\src\\mimecontentformatter.h"
     ],
-    "directory": "C:/C++/QT/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
-    "file": "C:/C++/QT/SmtpClient-for-Qt-2.0/src/mimecontentformatter.h"
+    "directory": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/build-SMTPEmail-Desktop_Qt_6_4_0_MinGW_64_bit-Release/.qtc_clangd",
+    "file": "C:/C++/QT/QT Widget Apps/ATM_Proj/ATM_repo/SmtpClient-for-Qt-2.0/src/mimecontentformatter.h"
 }
 ]

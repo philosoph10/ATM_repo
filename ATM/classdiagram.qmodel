@@ -612,7 +612,7 @@
                             <qlist>
                              <item>
                               <MClassMember>
-                               <uid>{4e487246-9760-4f94-8348-4eab59befd14}</uid>
+                               <uid>{87c0892b-fa48-48d7-b143-5fe5fdd29870}</uid>
                                <type>2</type>
                                <declaration>bool sendMail(QString receiverAddress, QString receiverName, QString subject, QString body)</declaration>
                               </MClassMember>
